@@ -22,7 +22,6 @@
 }
 
 .card {
-    cursor: pointer;
     width: 7.3rem;    
     background-color: transparent !important;
 }
