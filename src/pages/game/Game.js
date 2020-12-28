@@ -8,6 +8,8 @@ import {
   Button,
   Card,
   CardImg,
+  CardImgOverlay,
+  CardText,
   Spinner
 }
   from 'reactstrap';
@@ -28,7 +30,7 @@ function App() {
   const [currentTime, setCurrentTime] = useState(10);
   const [hitsCount, setHitsCount] = useState(0);
   const [errorsCount, setErrosCount] = useState(0);
-  const [isDisabled, setIsDisabled] = useState(false);
+  const [isDisabled, setIsDisabled] = useState(true);
   const [countSelectedCards, setCountSelectedCards] = useState([]);
   const [countMatchingCards, setCountMatchingCards] = useState([]);
   const [newGame, setNewGame] = useState();
@@ -50,8 +52,15 @@ function App() {
 
   async function verify(cardItem) {
     if (countSelectedCards.length < 2) {
-      cardItem.flipped = !cardItem.flipped;
-      setCountSelectedCards([...countSelectedCards, cardItem]);
+
+      if (countSelectedCards.find((c) => c.id === cardItem.id)) {
+        return null;
+
+      } else {
+        cardItem.flipped = !cardItem.flipped;
+        setCountSelectedCards([...countSelectedCards, cardItem]);
+      }
+
     }
 
     if (countSelectedCards.length === 1) {
@@ -88,7 +97,7 @@ function App() {
     cards.forEach((c) => c.flipped = true);
     setCardsFinal(shuffleArray(cards));
     setCursor("auto");
-    
+
     let count = 11;
 
     const start = () => {
@@ -150,13 +159,18 @@ function App() {
             return (
               <ReactCardFlip key={card.id} isFlipped={card.flipped ? card.flipped : false} flipDirection="horizontal">
                 <Col className="col-auto mb-1 p-1">
-                  <Card className="border-0" style={{ cursor: `${cursor}` }}>
-                    <CardImg src={svgDefault} onClick={() => !isDisabled ? handleClick(card) : undefined} />
+                  <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                    <CardImg src={svgDefault} />
                   </Card>
                 </Col>
                 <Col className="col-auto mb-1 p-1">
-                  <Card className="border-0" style={{ cursor: `${cursor}` }}>
-                    <CardImg src={svgDefault1} onClick={() => !isDisabled ? handleClick(card) : undefined} />
+                  <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                    <CardImg src={svgDefault1} />
+                    <CardImgOverlay>
+                      <CardText>
+                        <small className="text-muted text-uppercase" style={{ fontSize: '10px' }}>{card.nome}</small>
+                      </CardText>
+                    </CardImgOverlay>
                   </Card>
                 </Col>
               </ReactCardFlip>
