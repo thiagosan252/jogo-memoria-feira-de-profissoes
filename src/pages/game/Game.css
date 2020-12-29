@@ -22,6 +22,14 @@
 }
 
 .card {
-    width: 7.3rem;    
+    width: 7.3rem;
     background-color: transparent !important;
+}
+
+img {
+    opacity: 0.8;
+}
+
+.text-shadow-custom {
+    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
 }

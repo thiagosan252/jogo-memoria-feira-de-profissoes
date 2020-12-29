@@ -15,16 +15,21 @@ import {
   from 'reactstrap';
 
 import './Game.css';
+import ModalComponent from '../../components/modal/Modal';
 
 import cards from '../../assets/cards.json';
 
 import svgDefault from '../../assets/img/download.svg';
-import svgDefault1 from '../../assets/img/download1.svg';
 
 import { timeout, shuffleArray } from '../../utils/utils';
 
 
 function App() {
+
+  // Modal variables
+  const [modal, setModal] = useState(false);
+  const [title, setTitle] = useState("");
+  const [text, setText] = useState("");
 
   const [cardsFinal, setCardsFinal] = useState([]);
   const [currentTime, setCurrentTime] = useState(10);
@@ -67,12 +72,11 @@ function App() {
       if (countSelectedCards.find((c) => c.id !== cardItem.id)) {
 
         if (countSelectedCards.find((c) => c.nome === cardItem.nome)) {
-          let lista = cards.filter((c) => c.flipped === true);
-          setCountMatchingCards(lista);
+          setCountMatchingCards([...countMatchingCards, ...countSelectedCards, cardItem]);
 
           await timeout(700); //for 0.7 sec delay
-          setCountSelectedCards([]);
           setHitsCount(hitsCount + 1)
+          setCountSelectedCards([]);
 
         } else {
 
@@ -91,9 +95,42 @@ function App() {
     }
   }
 
+  const novoJogo = () => {
+    reset();
+    setNewGame(Math.floor(Math.random() * (10000 - 1)) + 1);
+    setIsDisabled(true);
+  }
+
   useEffect(() => {
 
-    setIsDisabled(true);
+    if (hitsCount > 0) {
+
+      let lastItem = countMatchingCards[countMatchingCards.length - 1];
+      setTitle(() => {
+        return (
+          <span className="badge badge-secondary text-uppercase" style={{ backgroundColor: '#1e1e2f' }}>{`#${hitsCount} ${lastItem.nome}`}</span>
+        )
+      })
+      setText(() => {
+        return (
+          <>
+            <div className="container-fluid">
+              <div className="row d-flex justify-content-center align-items-center">
+                <p className="text-center text-wrap text-break">
+                  <span className="text-muted">{lastItem.descricao}</span>
+                </p>
+              </div>
+            </div>
+          </>
+        )
+      });
+      setModal(true);
+    }
+    // eslint-disable-next-line
+  }, [hitsCount]);
+
+  useEffect(() => {
+
     cards.forEach((c) => c.flipped = true);
     setCardsFinal(shuffleArray(cards));
     setCursor("auto");
@@ -118,6 +155,20 @@ function App() {
 
   return (
     <>
+      <ModalComponent
+        isOpen={modal}
+        title={title}
+        text={text}
+        centered={true}
+        backdrop="static"
+        className="border-0"
+        classNameHeader="justify-content-center border-0"
+        colorBtn="success"
+        keyboard={false}
+        backToGame={() => { setModal(!modal); }}
+        toggle={() => { setModal(!modal) }}
+      />
+
       <Container fluid>
         <Row className="d-flex justify-content-center align-items-center m-3 h-100">
           <Col className="d-flex justify-content-start">
@@ -139,7 +190,7 @@ function App() {
             </div>
           </Col>
           <Col className="d-flex justify-content-end">
-            <Button color="primary" disabled={isDisabled} onClick={() => { reset(); setNewGame(Math.floor(Math.random() * (10000 - 1)) + 1) }}>
+            <Button color="primary" disabled={isDisabled} onClick={() => novoJogo()}>
               Novo Jogo{" "}
               {isDisabled ?
                 <Spinner
@@ -160,15 +211,15 @@ function App() {
               <ReactCardFlip key={card.id} isFlipped={card.flipped ? card.flipped : false} flipDirection="horizontal">
                 <Col className="col-auto mb-1 p-1">
                   <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
-                    <CardImg src={svgDefault} />
+                    <CardImg src={svgDefault} width="116.792px" height="116.604px" />
                   </Card>
                 </Col>
                 <Col className="col-auto mb-1 p-1">
                   <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
-                    <CardImg src={svgDefault1} />
-                    <CardImgOverlay>
-                      <CardText>
-                        <small className="text-muted text-uppercase" style={{ fontSize: '10px' }}>{card.nome}</small>
+                    <CardImg src={`./images/${card.imgSrc}`} />
+                    <CardImgOverlay style={{ top: '80px', padding: '.5rem' }}>
+                      <CardText className="text-justify text-truncate" style={{ lineBreak: 'anywhere', lineHeight: 'normal' }}>
+                        <small className="text-light font-weight-bold text-shadow-custom" style={{ fontSize: '10px' }}>{card.nome}</small>
                       </CardText>
                     </CardImgOverlay>
                   </Card>
