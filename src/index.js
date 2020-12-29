@@ -9,14 +9,14 @@ import Game from './pages/game/Game';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <MemoryRouter>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/jogar' component={Game} />
         
       </Switch>
-    </MemoryRouter>,
-  </React.StrictMode>,
+    </MemoryRouter>
+  </React.Fragment>,
   document.getElementById('root')
 );
