@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
+
 import ReactCardFlip from 'react-card-flip';
+import swal from '@sweetalert/with-react';
+import moment from 'moment';
 
 import {
   Container,
@@ -15,31 +18,67 @@ import {
   from 'reactstrap';
 
 import './Game.css';
-import ModalComponent from '../../components/modal/Modal';
+
+import { timeout, shuffleArray, secondsTohhmmss } from '../../utils/utils';
 
 import cards from '../../assets/cards.json';
-
 import svgDefault from '../../assets/img/download.svg';
 
-import { timeout, shuffleArray } from '../../utils/utils';
-
+moment.suppressDeprecationWarnings = true;
 
 function App() {
 
-  // Modal variables
-  const [modal, setModal] = useState(false);
-  const [title, setTitle] = useState("");
-  const [text, setText] = useState("");
-
+  // Cards variables
   const [cardsFinal, setCardsFinal] = useState([]);
-  const [currentTime, setCurrentTime] = useState(10);
+  const [seconds, setSeconds] = useState(10);
   const [hitsCount, setHitsCount] = useState(0);
   const [errorsCount, setErrosCount] = useState(0);
   const [isDisabled, setIsDisabled] = useState(true);
   const [countSelectedCards, setCountSelectedCards] = useState([]);
   const [countMatchingCards, setCountMatchingCards] = useState([]);
-  const [newGame, setNewGame] = useState();
+
+  // Game and cursor variables
+  const [isNew, setIsNew] = useState();
   const [cursor, setCursor] = useState("auto");
+
+  // Timer variables
+  const [time, setTime] = useState('');
+  const [clock, setClock] = useState(0);
+  const [offset, setOffset] = useState(null);
+  const [isActive, setIsActive] = useState(false);
+  const interval = React.useRef();
+
+  const stopTimer = () => {
+    if (interval.current) {
+      clearInterval(interval.current);
+      interval.current = null;
+    }
+  }
+
+  const toggle = (value) => {
+    setOffset(Date.now())
+    setIsActive(value);
+  }
+
+  const updateTimer = () => {
+    let clockUpdate = clock + calculateOffset();
+    let times = secondsTohhmmss(clockUpdate / 1000);
+    setClock(clockUpdate);
+    setTime(times);
+  }
+
+  const calculateOffset = () => {
+    let now = Date.now();
+    let newOffset = now - offset;
+    setOffset(now);
+    return newOffset;
+  }
+
+  const resetTimer = () => {
+    setClock(0);
+    let times = secondsTohhmmss(0 / 1000);
+    setTime(times);
+  }
 
   const reset = () => {
     setHitsCount(0);
@@ -51,11 +90,11 @@ function App() {
   const handleClick = (item) => {
     let cardsEquals = countMatchingCards.find((c) => c.nome === item.nome);
     if (cardsEquals === undefined) {
-      verify(item);
+      verifyMatchingCards(item);
     }
   }
 
-  async function verify(cardItem) {
+  const verifyMatchingCards = async (cardItem) => {
     if (countSelectedCards.length < 2) {
 
       if (countSelectedCards.find((c) => c.id === cardItem.id)) {
@@ -73,7 +112,7 @@ function App() {
 
         if (countSelectedCards.find((c) => c.nome === cardItem.nome)) {
           setCountMatchingCards([...countMatchingCards, ...countSelectedCards, cardItem]);
-
+          //stopTimer();
           await timeout(700); //for 0.7 sec delay
           setHitsCount(hitsCount + 1)
           setCountSelectedCards([]);
@@ -95,37 +134,80 @@ function App() {
     }
   }
 
-  const novoJogo = () => {
+  const isNewGame = () => {
     reset();
-    setNewGame(Math.floor(Math.random() * (10000 - 1)) + 1);
+    setIsNew(Math.floor(Math.random() * (10000 - 1)) + 1);
     setIsDisabled(true);
+    resetTimer();
   }
 
   useEffect(() => {
 
-    if (hitsCount > 0) {
+    const isLast = () => {
 
-      let lastItem = countMatchingCards[countMatchingCards.length - 1];
-      setTitle(() => {
-        return (
-          <span className="badge badge-secondary text-uppercase" style={{ backgroundColor: '#1e1e2f' }}>{`#${hitsCount} ${lastItem.nome}`}</span>
-        )
-      })
-      setText(() => {
-        return (
-          <>
-            <div className="container-fluid">
-              <div className="row d-flex justify-content-center align-items-center">
-                <p className="text-center text-wrap text-break">
-                  <span className="text-muted">{lastItem.descricao}</span>
-                </p>
-              </div>
-            </div>
-          </>
-        )
-      });
-      setModal(true);
+      if (hitsCount === (cards.length / 2)) {
+        swal(
+          {
+            title: "Fim de Jogo!",
+            icon: 'success',
+            buttons: {
+              cancel: "Voltar",
+              catch: {
+                text: "Novo jogo",
+                value: "catch",
+              },
+            },
+            text: `Tempo utilizado: ${time}`,
+            closeOnClickOutside: false,
+            closeOnEsc: false,
+
+          }).then((value) => {
+            switch (value) {
+
+              case "catch":
+                isNewGame();
+                break;
+
+              default:
+                break;
+            }
+          });
+        return;
+      }
+      toggle(true);
     }
+
+    if (hitsCount > 0) {
+      toggle(false);
+      let lastItem = countMatchingCards[countMatchingCards.length - 1];
+
+      swal({
+        content: (
+          <div className="container-fluid">
+            <div className="row justify-content-center align-items-center">
+              <p className="text-center text-wrap text-break h4">
+                <span className="badge badge-secondary text-uppercase" style={{ backgroundColor: '#1e1e2f' }}>
+                  {`#${hitsCount} ${lastItem.nome}`}
+                </span>
+              </p>
+            </div>
+
+            <div className="row d-flex justify-content-center align-items-center mt-4">
+              <p className="text-center text-wrap text-break">
+                <span className="text-muted">{lastItem.descricao}</span>
+              </p>
+            </div>
+          </div>
+        ),
+        buttons: {
+          cancel: "Genial!",
+        }
+
+      }).then(() => {
+        isLast();
+      });
+    }
+
     // eslint-disable-next-line
   }, [hitsCount]);
 
@@ -136,45 +218,48 @@ function App() {
     setCursor("auto");
 
     let count = 11;
+    let contador;
 
     const start = () => {
       if ((count - 1) >= 0) {
         count = count - 1;
-        setTimeout(start, 1000);
-        setCurrentTime(count);
+        contador = setTimeout(start, 1000);
+        setSeconds(count);
       } else {
+        toggle(true);
+        clearInterval(contador);
         cards.forEach((c) => c.flipped = false);
         setIsDisabled(false);
         setCursor("pointer");
-        setCurrentTime(10);
+        setSeconds(10);
       }
     };
 
     start();
-  }, [newGame]);
+    // eslint-disable-next-line
+  }, [isNew]);
+
+  useEffect(() => {
+
+    if (isActive) {
+      interval.current = setInterval(() => { updateTimer(); }, 100);
+
+    } else if (!isActive) {
+      stopTimer();
+    }
+    return () => stopTimer();
+
+    // eslint-disable-next-line
+  }, [isActive]);
 
   return (
     <>
-      <ModalComponent
-        isOpen={modal}
-        title={title}
-        text={text}
-        centered={true}
-        backdrop="static"
-        className="border-0"
-        classNameHeader="justify-content-center border-0"
-        colorBtn="success"
-        keyboard={false}
-        backToGame={() => { setModal(!modal); }}
-        toggle={() => { setModal(!modal) }}
-      />
-
       <Container fluid>
         <Row className="d-flex justify-content-center align-items-center m-3 h-100">
           <Col className="d-flex justify-content-start">
             <div className="txt-status">
               <span className="txt-light txt-bold">Tempo:</span>{" "}
-              <span className="txt-light">{currentTime}s</span>
+              <span className="txt-light">{seconds}s</span>
             </div>
           </Col>
           <Col className="d-flex justify-content-end">
@@ -190,7 +275,7 @@ function App() {
             </div>
           </Col>
           <Col className="d-flex justify-content-end">
-            <Button color="primary" disabled={isDisabled} onClick={() => novoJogo()}>
+            <Button color="primary" disabled={isDisabled} onClick={isNewGame}>
               Novo Jogo{" "}
               {isDisabled ?
                 <Spinner
@@ -214,7 +299,7 @@ function App() {
                     <CardImg src={svgDefault} width="116.792px" height="116.604px" />
                     <CardImgOverlay style={{ top: '20px', left: '4px' }}>
                       <CardText style={{ transform: 'rotate(330deg)' }}>
-                        <small className="txt-light font-weight-bold text-shadow-custom-front text-uppercase">Nutrição</small>
+                        <small className="txt-light font-weight-bold text-custom-front text-uppercase">Nutrição</small>
                       </CardText>
                     </CardImgOverlay>
                   </Card>
@@ -223,8 +308,8 @@ function App() {
                   <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={`./images/${card.imgSrc}`} />
                     <CardImgOverlay style={{ top: '80px', padding: '.5rem' }}>
-                      <CardText className="text-justify text-truncate" style={{ lineBreak: 'anywhere', lineHeight: 'normal' }}>
-                        <small className="text-light font-weight-bold text-shadow-custom-back" style={{ fontSize: '10px' }}>{card.nome}</small>
+                      <CardText className="text-justify text-truncate card-text-back">
+                        <small className="text-light font-weight-bold text-custom-back">{card.nome}</small>
                       </CardText>
                     </CardImgOverlay>
                   </Card>
