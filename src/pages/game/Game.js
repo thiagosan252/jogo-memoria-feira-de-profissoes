@@ -173,20 +173,20 @@ function App() {
         <Row className="d-flex justify-content-center align-items-center m-3 h-100">
           <Col className="d-flex justify-content-start">
             <div className="txt-status">
-              <span className="txt-dark txt-bold">Tempo:</span>{" "}
-              <span className="txt-dark">{currentTime}s</span>
+              <span className="txt-light txt-bold">Tempo:</span>{" "}
+              <span className="txt-light">{currentTime}s</span>
             </div>
           </Col>
           <Col className="d-flex justify-content-end">
             <div className="txt-status">
               <span className="txt-status-success txt-bold">Acertos:</span>{" "}
-              <span className="txt-dark">{hitsCount}</span>
+              <span className="txt-light">{hitsCount}</span>
             </div>
           </Col>
           <Col className="d-flex justify-content-start">
             <div className="txt-status">
               <span className="txt-status-danger txt-bold">Erros:</span>{" "}
-              <span className="txt-dark">{errorsCount}</span>
+              <span className="txt-light">{errorsCount}</span>
             </div>
           </Col>
           <Col className="d-flex justify-content-end">
@@ -212,6 +212,11 @@ function App() {
                 <Col className="col-auto mb-1 p-1">
                   <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={svgDefault} width="116.792px" height="116.604px" />
+                    <CardImgOverlay style={{ top: '20px', left: '4px' }}>
+                      <CardText style={{ transform: 'rotate(330deg)' }}>
+                        <small className="txt-light font-weight-bold text-shadow-custom-front text-uppercase">Nutrição</small>
+                      </CardText>
+                    </CardImgOverlay>
                   </Card>
                 </Col>
                 <Col className="col-auto mb-1 p-1">
@@ -219,7 +224,7 @@ function App() {
                     <CardImg src={`./images/${card.imgSrc}`} />
                     <CardImgOverlay style={{ top: '80px', padding: '.5rem' }}>
                       <CardText className="text-justify text-truncate" style={{ lineBreak: 'anywhere', lineHeight: 'normal' }}>
-                        <small className="text-light font-weight-bold text-shadow-custom" style={{ fontSize: '10px' }}>{card.nome}</small>
+                        <small className="text-light font-weight-bold text-shadow-custom-back" style={{ fontSize: '10px' }}>{card.nome}</small>
                       </CardText>
                     </CardImgOverlay>
                   </Card>

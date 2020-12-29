@@ -17,7 +17,7 @@
     color: #F00101;
 }
 
-.txt-dark {
+.txt-light {
     color: hsla(0, 0%, 100%, .8);
 }
 
@@ -30,6 +30,10 @@ img {
     opacity: 0.8;
 }
 
-.text-shadow-custom {
+.text-shadow-custom-back {
     text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
+}
+
+.text-shadow-custom-front {
+    text-shadow: 3px 3px 30px #ffffff
 }
