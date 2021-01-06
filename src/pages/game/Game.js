@@ -224,7 +224,7 @@ function App() {
     setCardsFinal(shuffleArray(cards));
     setCursor("auto");
 
-    let count = 11;
+    let count = 16;
     let contador;
 
     const start = () => {
