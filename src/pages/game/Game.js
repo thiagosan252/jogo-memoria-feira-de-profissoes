@@ -30,7 +30,7 @@ function App() {
 
   // Cards variables
   const [cardsFinal, setCardsFinal] = useState([]);
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(0);
   const [hitsCount, setHitsCount] = useState(0);
   const [errorsCount, setErrosCount] = useState(0);
   const [isDisabled, setIsDisabled] = useState(true);
@@ -193,14 +193,20 @@ function App() {
             </div>
 
             <div className="row d-flex justify-content-center align-items-center mt-4">
-              <p className="text-center text-wrap text-break">
+              <p className="text-justify text-wrap text-break">
                 <span className="text-muted">{lastItem.descricao}</span>
+              </p>
+            </div>
+            <div className="row d-flex justify-content-start align-items-start">
+              <p className="text-left text-wrap text-break">
+                <span className="text-muted font-weight-bold" style={{ fontSize: '12px' }}>TAG:&nbsp;</span>
+                <a href="#tag" onClick={() => false} class="badge badge-pill badge-info" style={{ fontSize: '14px' }}>{lastItem.tag}</a>
               </p>
             </div>
           </div>
         ),
         buttons: {
-          cancel: "Genial!",
+          cancel: "Entendi",
         }
 
       }).then(() => {
@@ -213,6 +219,7 @@ function App() {
 
   useEffect(() => {
 
+    setSeconds(15);
     cards.forEach((c) => c.flipped = true);
     setCardsFinal(shuffleArray(cards));
     setCursor("auto");
@@ -231,7 +238,6 @@ function App() {
         cards.forEach((c) => c.flipped = false);
         setIsDisabled(false);
         setCursor("pointer");
-        setSeconds(10);
       }
     };
 
