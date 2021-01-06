@@ -3,350 +3,224 @@
         "id": "1",
         "nome": "Epitélio Olfatório",
         "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "descricao": "O Epitélio Olfatório é responsável pela sensibilidade olfatória sendo encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos de células: as células de sustentação, prismáticas, com microvilos em sua superfície apical, sendo mais larga e mais estreita na base; as células basais, arredondadas e pequenas, presentes na região basal, sendo células-tronco do epitélio olfatório;  e as células olfatórias, as quais são neurônios bipolares com núcleo localizado na porção central mais inferior, além disso, possui em seus dendritos cílios sem mobilidade responsáveis por serem quimiorreceptores excitáveis pelas substâncias odoríferas.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "2",
-        "nome": "Epitélio Olfatório3",
+        "nome": "Epitélio Olfatório",
         "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "descricao": "O Epitélio Olfatório é responsável pela sensibilidade olfatória sendo encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos de células: as células de sustentação, prismáticas, com microvilos em sua superfície apical, sendo mais larga e mais estreita na base; as células basais, arredondadas e pequenas, presentes na região basal, sendo células-tronco do epitélio olfatório;  e as células olfatórias, as quais são neurônios bipolares com núcleo localizado na porção central mais inferior, além disso, possui em seus dendritos cílios sem mobilidade responsáveis por serem quimiorreceptores excitáveis pelas substâncias odoríferas.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "3",
-        "nome": "Epitélio Olfatório",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Epitélio Respiratório",
+        "imgSrc": "epitelio_respiratorio.jpeg",
+        "descricao": "O Epitélio Respiratório é composto por um epitélio pseudoestratificado cilíndrico ciliado, com células caliciformes, sendo encontrado nos seios paranasais, na nasofaringe, laringe e traqueia.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "4",
-        "nome": "Epitélio Olfatório4",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Epitélio Respiratório",
+        "imgSrc": "epitelio_respiratorio.jpeg",
+        "descricao": "O Epitélio Respiratório é composto por um epitélio pseudoestratificado cilíndrico ciliado, com células caliciformes, sendo encontrado nos seios paranasais, na nasofaringe, laringe e traqueia.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "5",
-        "nome": "Epitélio Olfatório3",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Saco Alveolar",
+        "imgSrc": "saco_alveolar.jpeg",
+        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "6",
-        "nome": "Epitélio Olfatório4",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Saco Alveolar",
+        "imgSrc": "saco_alveolar.jpeg",
+        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "7",
-        "nome": "Epitélio Olfatório5",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Bronquíolos",
+        "imgSrc": "bronquiolos.jpeg",
+        "descricao": "Os bronquíolos são divididos em um bronquíolo terminal que se ramifica em dois bronquíolos respiratórios, contendo sacos alveolares e alvéolos ao seu redor. O epitélio nas porções iniciais do bronquíolo é cilíndrico simples ciliado, passando a cúbico simples, ciliado ou não, na porção terminal. Os bronquíolos terminais possuem uma parede mais delgada e células de clara. Já os bronquíolos respiratórios possuem numerosas expansões saculiformes constituídas por alvéolos, onde ocorrem as trocas gasosas, além disso, também apresentam as células de clara.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "8",
-        "nome": "Epitélio Olfatório5",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Bronquíolos",
+        "imgSrc": "bronquiolos.jpeg",
+        "descricao": "Os bronquíolos são divididos em um bronquíolo terminal que se ramifica em dois bronquíolos respiratórios, contendo sacos alveolares e alvéolos ao seu redor. O epitélio nas porções iniciais do bronquíolo é cilíndrico simples ciliado, passando a cúbico simples, ciliado ou não, na porção terminal. Os bronquíolos terminais possuem uma parede mais delgada e células de clara. Já os bronquíolos respiratórios possuem numerosas expansões saculiformes constituídas por alvéolos, onde ocorrem as trocas gasosas, além disso, também apresentam as células de clara.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "9",
-        "nome": "Epitélio Olfatório8",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Células de Clara",
+        "imgSrc": "celulas_de_clara.jpeg",
+        "descricao": "As Células de Clara se encontram nas paredes de um bronquíolo terminal. Elas apresentam grânulos de secreção e possuem a superfície apical evidente e arredondada. Essas células secretam proteínas que protegem o revestimento bronquiolar contra poluentes do ar inspirado e contra inflamações.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "10",
-        "nome": "Epitélio Olfatório8",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Células de Clara",
+        "imgSrc": "celulas_de_clara.jpeg",
+        "descricao": "As Células de Clara se encontram nas paredes de um bronquíolo terminal. Elas apresentam grânulos de secreção e possuem a superfície apical evidente e arredondada. Essas células secretam proteínas que protegem o revestimento bronquiolar contra poluentes do ar inspirado e contra inflamações.",
+        "tag": "Sistema Respiratório",
         "flipped": false
     },
     {
         "id": "11",
-        "nome": "Epitélio Olfatório11",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Veias Médias",
+        "imgSrc": "veias_medias.jpeg",
+        "descricao": "As Veias possuem como característica de corte uma luz irregular, sendo compostas por três túnicas: uma túnica íntima com uma camada subendotelial fina ou ausente; uma túnica média, a qual contém células musculares lisas acompanhadas com fibras reticulares e poucas fibras elásticas; e uma túnica adventícia bem desenvolvida e com mais colágeno.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "12",
-        "nome": "Epitélio Olfatório11",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Veias Médias",
+        "imgSrc": "veias_medias.jpeg",
+        "descricao": "As Veias possuem como característica de corte uma luz irregular, sendo compostas por três túnicas: uma túnica íntima com uma camada subendotelial fina ou ausente; uma túnica média, a qual contém células musculares lisas acompanhadas com fibras reticulares e poucas fibras elásticas; e uma túnica adventícia bem desenvolvida e com mais colágeno.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "13",
-        "nome": "Epitélio Olfatório12",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Artéria",
+        "imgSrc": "arteria.jpeg",
+        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, que uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "14",
-        "nome": "Epitélio Olfatório12",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Artéria",
+        "imgSrc": "arteria.jpeg",
+        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, que uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "15",
-        "nome": "Epitélio Olfatório13",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Células Endoteliais",
+        "imgSrc": "celulas_endoteliais.jpeg",
+        "descricao": "O endotélio é constituído por uma camada simples de células pavimentosas, denominadas células endoteliais, as quais revestem o interior dos vasos sanguíneos, especialmente os capilares sanguíneos. ",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "16",
-        "nome": "Epitélio Olfatório14",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Células Endoteliais",
+        "imgSrc": "celulas_endoteliais.jpeg",
+        "descricao": "O endotélio é constituído por uma camada simples de células pavimentosas, denominadas células endoteliais, as quais revestem o interior dos vasos sanguíneos, especialmente os capilares sanguíneos. ",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "17",
-        "nome": "Epitélio Olfatório15",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Célula Pericito",
+        "imgSrc": "celular_pericito.jpeg",
+        "descricao": "Pericitos são células que revestem os vasos sanguíneos, as quais possuem importante papel na estabilização e no suporte desses vasos. Além disso, exercem funções de interação com outras células que estão em seu microambiente.",
+        "tag": "",
         "flipped": false
     },
     {
         "id": "18",
-        "nome": "Epitélio Olfatório15",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Célula Pericito",
+        "imgSrc": "celular_pericito.jpeg",
+        "descricao": "Pericitos são células que revestem os vasos sanguíneos, as quais possuem importante papel na estabilização e no suporte desses vasos. Além disso, exercem funções de interação com outras células que estão em seu microambiente.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "19",
-        "nome": "Epitélio Olfatório13",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Capilares",
+        "imgSrc": "capilares.jpeg",
+        "descricao": "Os capilares sanguíneos realizam trocas de substâncias entre o sangue e o líquido intersticial. São estruturas com células poligonais (com o núcleo projetado para luz do capilar), com poucas organelas e possuem zonas de oclusão, permitindo permeabilidade a macromoléculas. Além disso, podem ser caracterizados como: contínuos ou somáticos, com ausência de fenestras; fenestrado ou visceral; e sinusóide, com trajeto sinuoso e calibre aumentado.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "20",
-        "nome": "Epitélio Olfatório14",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Capilares",
+        "imgSrc": "capilares.jpeg",
+        "descricao": "Os capilares sanguíneos realizam trocas de substâncias entre o sangue e o líquido intersticial. São estruturas com células poligonais (com o núcleo projetado para luz do capilar), com poucas organelas e possuem zonas de oclusão, permitindo permeabilidade a macromoléculas. Além disso, podem ser caracterizados como: contínuos ou somáticos, com ausência de fenestras; fenestrado ou visceral; e sinusóide, com trajeto sinuoso e calibre aumentado.",
+        "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
     {
         "id": "21",
-        "nome": "Epitélio Olfatório21",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Zona Glomerulosa",
+        "imgSrc": "zona_glomerulosa.jpeg",
+        "descricao": "A Zona Glomerulosa é composta por células que são organizadas em cordões que sintetizam e secretam aldosterona. A aldosterona é um hormônio esteroide produzido pelo córtex adrenal. A função da aldosterona no metabolismo é controlar o sódio e o potássio, regulando o volume de fluidos. A aldosterona atua para diminuir a excreção de sódio e aumentar a excreção de potássio nos rins, nas glândulas sudoríparas e nas glândulas salivares.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "22",
-        "nome": "Epitélio Olfatório21",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Zona Glomerulosa",
+        "imgSrc": "zona_glomerulosa.jpeg",
+        "descricao": "A Zona Glomerulosa é composta por células que são organizadas em cordões que sintetizam e secretam aldosterona. A aldosterona é um hormônio esteroide produzido pelo córtex adrenal. A função da aldosterona no metabolismo é controlar o sódio e o potássio, regulando o volume de fluidos. A aldosterona atua para diminuir a excreção de sódio e aumentar a excreção de potássio nos rins, nas glândulas sudoríparas e nas glândulas salivares.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "23",
-        "nome": "Epitélio Olfatório22",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Zona Fasciculada",
+        "imgSrc": "zona_fasciculada.jpeg",
+        "descricao": "As células da Zona Fasciculada são organizadas em colunas radiais, com diversas gotas lipídicas no citoplasma (espongiócitos). Além disso, essa zona secreta glicocorticóides, que possuem uma ação anti inflamatória e imunossupressora, sendo responsáveis por sintetizarem e secretarem cortisol e corticosterona. A zona fasciculada também realiza o controle do metabolismo de carboidratos, gorduras e proteínas.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "24",
-        "nome": "Epitélio Olfatório22",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Zona Fasciculada",
+        "imgSrc": "zona_fasciculada.jpeg",
+        "descricao": "As células da Zona Fasciculada são organizadas em colunas radiais, com diversas gotas lipídicas no citoplasma (espongiócitos). Além disso, essa zona secreta glicocorticóides, que possuem uma ação anti inflamatória e imunossupressora, sendo responsáveis por sintetizarem e secretarem cortisol e corticosterona. A zona fasciculada também realiza o controle do metabolismo de carboidratos, gorduras e proteínas.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "25",
-        "nome": "Epitélio Olfatório23",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Zona Reticulada",
+        "imgSrc": "zona_reticulada.jpeg",
+        "descricao": "A zona reticulada é uma camada estreita no limite com a medular, a qual produz os andrógenos. Suas células são organizadas em cordões anastomosados, sintetizando e secretando diidroepiandrosterona, hormônios masculinizantes pouco potentes.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "26",
-        "nome": "Epitélio Olfatório24",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Zona Reticulada",
+        "imgSrc": "zona_reticulada.jpeg",
+        "descricao": "A zona reticulada é uma camada estreita no limite com a medular, a qual produz os andrógenos. Suas células são organizadas em cordões anastomosados, sintetizando e secretando diidroepiandrosterona, hormônios masculinizantes pouco potentes.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "27",
-        "nome": "Epitélio Olfatório25",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Células da Tireoide",
+        "imgSrc": "celulas_da_tireoide.jpeg",
+        "descricao": "Na glândula da tireoide existem duas principais células: as células foliculares e as parafoliculares. As células foliculares são arranjadas radialmente em torno de um lúmen, elas utilizam o iodo do sangue para produzir hormônios tireoidianos, os quais ajudam na regulação do metabolismo. Já as células parafoliculares produzem a calcitonina, hormônio que auxilia na regulação da forma como o corpo usa o cálcio.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     },
     {
         "id": "28",
-        "nome": "Epitélio Olfatório25",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "29",
-        "nome": "Epitélio Olfatório23",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "30",
-        "nome": "Epitélio Olfatório24",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "31",
-        "nome": "Epitélio Olfatório31",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "32",
-        "nome": "Epitélio Olfatório31",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "33",
-        "nome": "Epitélio Olfatório32",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "34",
-        "nome": "Epitélio Olfatório32",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "35",
-        "nome": "Epitélio Olfatório33",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "36",
-        "nome": "Epitélio Olfatório34",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "37",
-        "nome": "Epitélio Olfatório35",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "38",
-        "nome": "Epitélio Olfatório35",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "39",
-        "nome": "Epitélio Olfatório33",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "40",
-        "nome": "Epitélio Olfatório34",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "41",
-        "nome": "Epitélio Olfatório41",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "42",
-        "nome": "Epitélio Olfatório41",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "43",
-        "nome": "Epitélio Olfatório42",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "44",
-        "nome": "Epitélio Olfatório42",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "45",
-        "nome": "Epitélio Olfatório43",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "46",
-        "nome": "Epitélio Olfatório44",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "47",
-        "nome": "Epitélio Olfatório45",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "48",
-        "nome": "Epitélio Olfatório45",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "49",
-        "nome": "Epitélio Olfatório43",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
-        "flipped": false
-    },
-    {
-        "id": "50",
-        "nome": "Epitélio Olfatório44",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O epitélio Olfatório é responsável pela sensibilidade olfatória e é encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos celular, células de sustentação, células basais e células olfatórias.",
+        "nome": "Células da Tireoide",
+        "imgSrc": "celulas_da_tireoide.jpeg",
+        "descricao": "Na glândula da tireoide existem duas principais células: as células foliculares e as parafoliculares. As células foliculares são arranjadas radialmente em torno de um lúmen, elas utilizam o iodo do sangue para produzir hormônios tireoidianos, os quais ajudam na regulação do metabolismo. Já as células parafoliculares produzem a calcitonina, hormônio que auxilia na regulação da forma como o corpo usa o cálcio.",
+        "tag": "Sistema Endócrino",
         "flipped": false
     }
 ]
