@@ -5,6 +5,7 @@ import swal from '@sweetalert/with-react';
 import moment from 'moment';
 
 import {
+  Alert,
   Container,
   Row,
   Col,
@@ -28,6 +29,9 @@ moment.suppressDeprecationWarnings = true;
 
 function App() {
 
+  // Alert variables
+  const [visible, setVisible] = useState(true);
+
   // Cards variables
   const [cardsFinal, setCardsFinal] = useState([]);
   const [seconds, setSeconds] = useState(0);
@@ -37,9 +41,8 @@ function App() {
   const [countSelectedCards, setCountSelectedCards] = useState([]);
   const [countMatchingCards, setCountMatchingCards] = useState([]);
 
-  // Game and cursor variables
+  // Game variable
   const [isNew, setIsNew] = useState();
-  const [cursor, setCursor] = useState("auto");
 
   // Timer variables
   const [time, setTime] = useState('');
@@ -200,7 +203,7 @@ function App() {
             <div className="row d-flex justify-content-start align-items-start">
               <p className="text-left text-wrap text-break">
                 <span className="text-muted font-weight-bold" style={{ fontSize: '12px' }}>TAG:&nbsp;</span>
-                <a href="#tag" onClick={() => false} class="badge badge-pill badge-info" style={{ fontSize: '14px' }}>{lastItem.tag}</a>
+                <p onClick={() => false} className="badge badge-pill badge-info tag">{lastItem.tag}</p>
               </p>
             </div>
           </div>
@@ -222,7 +225,6 @@ function App() {
     setSeconds(15);
     cards.forEach((c) => c.flipped = true);
     setCardsFinal(shuffleArray(cards));
-    setCursor("auto");
 
     let count = 16;
     let contador;
@@ -237,7 +239,7 @@ function App() {
         clearInterval(contador);
         cards.forEach((c) => c.flipped = false);
         setIsDisabled(false);
-        setCursor("pointer");
+        setVisible(false);
       }
     };
 
@@ -260,28 +262,17 @@ function App() {
 
   return (
     <>
-      <Container fluid>
-        <Row className="d-flex justify-content-center align-items-center m-3 h-100">
-          <Col className="d-flex justify-content-start">
-            <div className="txt-status">
-              <span className="txt-light txt-bold">Tempo:</span>{" "}
-              <span className="txt-light">{seconds}s</span>
-            </div>
-          </Col>
-          <Col className="d-flex justify-content-end">
-            <div className="txt-status">
-              <span className="txt-status-success txt-bold">Acertos:</span>{" "}
-              <span className="txt-light">{hitsCount}</span>
-            </div>
-          </Col>
-          <Col className="d-flex justify-content-start">
-            <div className="txt-status">
-              <span className="txt-status-danger txt-bold">Erros:</span>{" "}
-              <span className="txt-light">{errorsCount}</span>
-            </div>
-          </Col>
-          <Col className="d-flex justify-content-end">
-            <Button color="primary" disabled={isDisabled} onClick={isNewGame}>
+
+      <div className="alert-fixed">
+        <Alert color="primary" isOpen={visible} fade transition={{ in: true, timeout: 150 }}>
+          Você possui {seconds} segundos para decorar.
+            </Alert>
+      </div>
+
+      <Container fluid className="scrollbar-auto">
+        <Row className="d-flex align-items-center m-3 h-100">
+          <div className="p-0">
+            <Button className={isDisabled ? 'disabled' : 'btn-shadow'} color="primary" disabled={isDisabled} onClick={isNewGame}>
               Novo Jogo{" "}
               {isDisabled ?
                 <Spinner
@@ -294,14 +285,26 @@ function App() {
                 :
                 null
               }</Button>
-          </Col>
+          </div>
+          <div className="ml-auto p-0">
+            <form className="form-inline">
+              <div className="txt-status">
+                <span className="txt-status-success txt-bold">Acertos:</span>{" "}
+                <span className="txt-light">{hitsCount}</span>
+              </div>
+              <div className="ml-2 txt-status">
+                <span className="txt-status-danger txt-bold">Erros:</span>{" "}
+                <span className="txt-light">{errorsCount}</span>
+              </div>
+            </form>
+          </div>
         </Row>
         <Row className="justify-content-center">
           {cardsFinal.map((card) => {
             return (
               <ReactCardFlip key={card.id} isFlipped={card.flipped ? card.flipped : false} flipDirection="horizontal">
                 <Col className="col-auto mb-1 p-1">
-                  <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                  <Card inverse className={visible ? 'border-0 disabled' : 'border-0'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={svgDefault} width="116.792px" height="116.604px" />
                     <CardImgOverlay style={{ top: '20px', left: '4px' }}>
                       <CardText style={{ transform: 'rotate(330deg)' }}>
@@ -311,7 +314,7 @@ function App() {
                   </Card>
                 </Col>
                 <Col className="col-auto mb-1 p-1">
-                  <Card inverse className="border-0" style={{ cursor: `${cursor}` }} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                  <Card inverse className={visible ? 'border-0 disabled' : 'border-0'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={`./images/${card.imgSrc}`} />
                     <CardImgOverlay style={{ top: '80px', padding: '.5rem' }}>
                       <CardText className="text-justify text-truncate card-text-back">
