@@ -222,5 +222,101 @@
         "descricao": "Na glândula da tireoide existem duas principais células: as células foliculares e as parafoliculares. As células foliculares são arranjadas radialmente em torno de um lúmen, elas utilizam o iodo do sangue para produzir hormônios tireoidianos, os quais ajudam na regulação do metabolismo. Já as células parafoliculares produzem a calcitonina, hormônio que auxilia na regulação da forma como o corpo usa o cálcio.",
         "tag": "Sistema Endócrino",
         "flipped": false
+    },
+    {
+        "id": "29",
+        "nome": "Ilhotas de Langerhans",
+        "imgSrc": "ilhotas_da_langerhans.jpeg",
+        "descricao": "As ilhotas de Langerhans são um grupo de células do pâncreas que produzem os hormônios glucagon, insulina, somatostatina e o polipeptídio pancreático.",
+        "tag": "Sistema Endócrino",
+        "flipped": false
+    },
+    {
+        "id": "30",
+        "nome": "Ilhotas de Langerhans",
+        "imgSrc": "ilhotas_da_langerhans.jpeg",
+        "descricao": "As ilhotas de Langerhans são um grupo de células do pâncreas que produzem os hormônios glucagon, insulina, somatostatina e o polipeptídio pancreático.",
+        "tag": "Sistema Endócrino",
+        "flipped": false
+    },
+    {
+        "id": "31",
+        "nome": "Botões Gustativos",
+        "imgSrc": "botoes_gustativos.jpeg",
+        "descricao": "Os botões gustativos são responsáveis por fornecer a gustação, estando presentes nas papilas gustativas, na faringe, na laringe e na porção mais alta do esôfago. São encontrados nesses botões 4 tipos de células: as basais; as escuras (de suporte); as claras (gustativas diárias); e as células intermediárias com microvilos. Além disso, os botões gustativos possuem o papel de detectar gorduras (receptor de membranas).",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "32",
+        "nome": "Botões Gustativos",
+        "imgSrc": "botoes_gustativos.jpeg",
+        "descricao": "Os botões gustativos são responsáveis por fornecer a gustação, estando presentes nas papilas gustativas, na faringe, na laringe e na porção mais alta do esôfago. São encontrados nesses botões 4 tipos de células: as basais; as escuras (de suporte); as claras (gustativas diárias); e as células intermediárias com microvilos. Além disso, os botões gustativos possuem o papel de detectar gorduras (receptor de membranas).",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "33",
+        "nome": "Célula mucosa",
+        "imgSrc": "celula_mucosa.jpeg",
+        "descricao": "Essas células possuem um formato irregular, com seus núcleos na base e os grânulos de secreção próximos do polo apical. São encontradas entre as células parietais no colo das glândulas gástricas.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "34",
+        "nome": "Célula mucosa",
+        "imgSrc": "celula_mucosa.jpeg",
+        "descricao": "Essas células possuem um formato irregular, com seus núcleos na base e os grânulos de secreção próximos do polo apical. São encontradas entre as células parietais no colo das glândulas gástricas.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "35",
+        "nome": "Célula Oxíntica",
+        "imgSrc": "celula_oxintica.jpeg",
+        "descricao": "São encontradas na metade superior das glândulas gástricas, sendo escassas na base. Possuem como características serem arredondas ou piramidais, com um núcleo esférico, central, e com citoplasma eosinofílico. Além disso, essas células possuem muitas mitocôndrias e uma invaginação circular profunda da membrana plasmática apical, formando um canalículo intracelular.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "36",
+        "nome": "Célula Oxíntica",
+        "imgSrc": "celula_oxintica.jpeg",
+        "descricao": "São encontradas na metade superior das glândulas gástricas, sendo escassas na base. Possuem como características serem arredondas ou piramidais, com um núcleo esférico, central, e com citoplasma eosinofílico. Além disso, essas células possuem muitas mitocôndrias e uma invaginação circular profunda da membrana plasmática apical, formando um canalículo intracelular.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "37",
+        "nome": "Célula Zimogênica",
+        "imgSrc": "celula_zimogenica.jpeg",
+        "descricao": "Essas células são encontradas na porção inferior das glândulas gástricas e possuem as características de células que sintetizam e exportam proteínas. As células zimogênicas obtêm grande quantidade de retículo endoplasmático rugoso, o que proporciona a ela sua basofilia. Os grânulos no citoplasma possuem pepsinogênio (enzima inativa) o qual é transformado na enzima proteolítica pepsina após ser secretado no ph ácido do estômago. Além disso, nos seres humanos as células zimogênicas também produzem a enzima lipase.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "38",
+        "nome": "Célula Zimogênica",
+        "imgSrc": "celula_zimogenica.jpeg",
+        "descricao": "Essas células são encontradas na porção inferior das glândulas gástricas e possuem as características de células que sintetizam e exportam proteínas. As células zimogênicas obtêm grande quantidade de retículo endoplasmático rugoso, o que proporciona a ela sua basofilia. Os grânulos no citoplasma possuem pepsinogênio (enzima inativa) o qual é transformado na enzima proteolítica pepsina após ser secretado no ph ácido do estômago. Além disso, nos seres humanos as células zimogênicas também produzem a enzima lipase.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "39",
+        "nome": "Célula Enteroendócrinas",
+        "imgSrc": "celula_enteroendocrinas.jpeg",
+        "descricao": "Encontradas próximo da base das glândulas gástricas, essas células secretam principalmente 5-hidroxitriptamina (serotonina) no fundo do estômago. Já outras células enteroendócrinas secretam somatostatina, que inibe a liberação de outros hormônios, inclusive de gastrina.",
+        "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "40",
+        "nome": "Célula Enteroendócrinas",
+        "imgSrc": "celula_enteroendocrinas.jpeg",
+        "descricao": "Encontradas próximo da base das glândulas gástricas, essas células secretam principalmente 5-hidroxitriptamina (serotonina) no fundo do estômago. Já outras células enteroendócrinas secretam somatostatina, que inibe a liberação de outros hormônios, inclusive de gastrina.",
+        "tag": "Sistema Digestório",
+        "flipped": false
     }
 ]

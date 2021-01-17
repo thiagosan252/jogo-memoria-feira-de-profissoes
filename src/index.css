@@ -5,13 +5,14 @@ html, body {
 /* Hide scrollbar for IE, Edge and Firefox */
 #root {
   height: 100%;
-  overflow-y: scroll;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-auto{
+  overflow-y: auto;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-#root::-webkit-scrollbar {
+.scrollbar-hidden::-webkit-scrollbar {
   display: none;
 }
 
@@ -21,4 +22,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1e1e2f !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1e1e2f;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, .6);
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(136, 136, 136, 1);
 }
