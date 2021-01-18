@@ -314,7 +314,7 @@ function App() {
                   </Card>
                 </Col>
                 <Col className="col-auto mb-1 p-1">
-                  <Card inverse className={visible ? 'border-0 disabled' : 'border-0'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                  <Card inverse className={visible ? 'border-0 disabled' : 'border-0 pointer'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={`./images/${card.imgSrc}`} />
                     <CardImgOverlay style={{ top: '80px', padding: '.5rem' }}>
                       <CardText className="text-justify text-truncate card-text-back">
