@@ -35,7 +35,7 @@
         "id": "5",
         "nome": "Saco Alveolar",
         "imgSrc": "saco_alveolar.jpeg",
-        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos.",
+        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre ar e sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
         "tag": "Sistema Respiratório",
         "flipped": false
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "nome": "Saco Alveolar",
         "imgSrc": "saco_alveolar.jpeg",
-        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos.",
+        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre ar e sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
         "tag": "Sistema Respiratório",
         "flipped": false
     },
@@ -317,6 +317,86 @@
         "imgSrc": "celula_enteroendocrinas.jpeg",
         "descricao": "Encontradas próximo da base das glândulas gástricas, essas células secretam principalmente 5-hidroxitriptamina (serotonina) no fundo do estômago. Já outras células enteroendócrinas secretam somatostatina, que inibe a liberação de outros hormônios, inclusive de gastrina.",
         "tag": "Sistema Digestório",
+        "flipped": false
+    },
+    {
+        "id": "41",
+        "nome": "Ducto coletor",
+        "imgSrc": "ducto_coletor.jpeg",
+        "descricao": "O ducto coletor é composto por um epitélio simples cúbico sem microvilosidades. À medida que se dirige para as papilas suas células ficam mais altas e se tornam cilíndricas. Suas células são claras em microscópio eletrônico e são pobres em organelas.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "42",
+        "nome": "Ducto coletor",
+        "imgSrc": "ducto_coletor.jpeg",
+        "descricao": "O ducto coletor é composto por um epitélio simples cúbico sem microvilosidades. À medida que se dirige para as papilas suas células ficam mais altas e se tornam cilíndricas. Suas células são claras em microscópio eletrônico e são pobres em organelas.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "43",
+        "nome": "Rim",
+        "imgSrc": "rim.jpeg",
+        "descricao": "O Rim é constituído pela cápsula de tecido conjuntivo denso, a zona cortical e a zona medular. Ele também é formado pelo néfron, o qual é composto pelo corpúsculo renal ou de Malpighi, pelo túbulo contorcido proximal, pelas partes delgadas e espessas da Alça de Henle e pelo túbulo contorcido distal. Possui função de eliminação e conservação de água, eletrólitos e metabólitos; é responsável pelo equilíbrio hidroeletrolítico; além disso, secretam hormônios como a Renina, que participa da regulação da pressão sanguínea, e a Eritropoetina (EPO), uma glicoproteína que estimula a produção de eritrócitos e também participa da atividade da Vitamina D3.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "44",
+        "nome": "Rim",
+        "imgSrc": "rim.jpeg",
+        "descricao": "O Rim é constituído pela cápsula de tecido conjuntivo denso, a zona cortical e a zona medular. Ele também é formado pelo néfron, o qual é composto pelo corpúsculo renal ou de Malpighi, pelo túbulo contorcido proximal, pelas partes delgadas e espessas da Alça de Henle e pelo túbulo contorcido distal. Possui função de eliminação e conservação de água, eletrólitos e metabólitos; é responsável pelo equilíbrio hidroeletrolítico; além disso, secretam hormônios como a Renina, que participa da regulação da pressão sanguínea, e a Eritropoetina (EPO), uma glicoproteína que estimula a produção de eritrócitos e também participa da atividade da Vitamina D3.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "45",
+        "nome": "Corpúsculo Renal",
+        "imgSrc": "corpusculo_renal.jpeg",
+        "descricao": "Os Corpúsculos Renais estão localizados no córtex renal, sendo o aparelho de filtração do néfron. Cada corpúsculo é composto por dois elementos principais: o glomérulo e a cápsula de Bowman (glomerular). O glomérulo é uma rede de capilares formados por ramos das arteríolas aferente e eferente. As arteríolas aferente e eferente entram no corpúsculo renal no chamado polo vascular, enquanto que o local onde a cápsula glomerular se estreita e continua como segmento espesso proximal do néfron é chamado de polo urinário. Já a cápsula glomerular envolve o glomérulo, consistindo em duas camadas (parietal e visceral), que limitam o espaço capsular glomerular. A camada visceral interna é formada por células especiais, os podócitos.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "46",
+        "nome": "Corpúsculo Renal",
+        "imgSrc": "corpusculo_renal.jpeg",
+        "descricao": "Os Corpúsculos Renais estão localizados no córtex renal, sendo o aparelho de filtração do néfron. Cada corpúsculo é composto por dois elementos principais: o glomérulo e a cápsula de Bowman (glomerular). O glomérulo é uma rede de capilares formados por ramos das arteríolas aferente e eferente. As arteríolas aferente e eferente entram no corpúsculo renal no chamado polo vascular, enquanto que o local onde a cápsula glomerular se estreita e continua como segmento espesso proximal do néfron é chamado de polo urinário. Já a cápsula glomerular envolve o glomérulo, consistindo em duas camadas (parietal e visceral), que limitam o espaço capsular glomerular. A camada visceral interna é formada por células especiais, os podócitos.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "47",
+        "nome": "Túbulo proximal",
+        "imgSrc": "tubulo_proximal.jpeg",
+        "descricao": "O Túbulo proximal compõe o sistema tubular do néfron, sucedendo o corpúsculo renal e antecedendo a alça de Henle. Contém partes contorcidas e retas, sendo o túbulo reto proximal estendido até a medula. Ambas as partes são compostas por epitélio cúbico simples, com muitas mitocôndrias e microvilosidades, o que permite uma função de absorção e secreção do túbulo proximal.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "48",
+        "nome": "Túbulo proximal",
+        "imgSrc": "tubulo_proximal.jpeg",
+        "descricao": "O Túbulo proximal compõe o sistema tubular do néfron, sucedendo o corpúsculo renal e antecedendo a alça de Henle. Contém partes contorcidas e retas, sendo o túbulo reto proximal estendido até a medula. Ambas as partes são compostas por epitélio cúbico simples, com muitas mitocôndrias e microvilosidades, o que permite uma função de absorção e secreção do túbulo proximal.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "49",
+        "nome": "Túbulo Distal",
+        "imgSrc": "tubulo_distal.jpeg",
+        "descricao": "Sendo projetado para o córtex, o túbulo distal é constituído por duas partes, o túbulo reto distal e o túbulo contorcido distal. O túbulo reto distal é a continuação do ramo ascendente da alça de Henle a partir do nível entre a medula interna e externa. Ambas as partes do túbulo distal são compostas por epitélio cúbico simples.",
+        "tag": "Sistema Urinário",
+        "flipped": false
+    },
+    {
+        "id": "50",
+        "nome": "Túbulo Distal",
+        "imgSrc": "tubulo_distal.jpeg",
+        "descricao": "Sendo projetado para o córtex, o túbulo distal é constituído por duas partes, o túbulo reto distal e o túbulo contorcido distal. O túbulo reto distal é a continuação do ramo ascendente da alça de Henle a partir do nível entre a medula interna e externa. Ambas as partes do túbulo distal são compostas por epitélio cúbico simples.",
+        "tag": "Sistema Urinário",
         "flipped": false
     }
 ]
