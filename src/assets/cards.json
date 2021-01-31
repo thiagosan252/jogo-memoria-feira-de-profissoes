@@ -35,7 +35,7 @@
         "id": "5",
         "nome": "Saco Alveolar",
         "imgSrc": "saco_alveolar.jpeg",
-        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre ar e sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
+        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveolos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre o ar e o sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
         "tag": "Sistema Respiratório",
         "flipped": false
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "nome": "Saco Alveolar",
         "imgSrc": "saco_alveolar.jpeg",
-        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre ar e sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
+        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveolos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre o ar e o sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
         "tag": "Sistema Respiratório",
         "flipped": false
     },
@@ -99,7 +99,7 @@
         "id": "13",
         "nome": "Artéria",
         "imgSrc": "arteria.jpeg",
-        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, que uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
+        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
         "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
@@ -107,7 +107,7 @@
         "id": "14",
         "nome": "Artéria",
         "imgSrc": "arteria.jpeg",
-        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, que uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
+        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
         "tag": "Sistema Cardio-Vascular",
         "flipped": false
     },
