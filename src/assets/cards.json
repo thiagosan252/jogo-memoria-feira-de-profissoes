@@ -257,7 +257,7 @@
     },
     {
         "id": "33",
-        "nome": "Célula mucosa",
+        "nome": "Célula Mucosa",
         "imgSrc": "celula_mucosa.jpeg",
         "descricao": "Essas células possuem um formato irregular, com seus núcleos na base e os grânulos de secreção próximos do polo apical. São encontradas entre as células parietais no colo das glândulas gástricas.",
         "tag": "Sistema Digestório",
@@ -265,7 +265,7 @@
     },
     {
         "id": "34",
-        "nome": "Célula mucosa",
+        "nome": "Célula Mucosa",
         "imgSrc": "celula_mucosa.jpeg",
         "descricao": "Essas células possuem um formato irregular, com seus núcleos na base e os grânulos de secreção próximos do polo apical. São encontradas entre as células parietais no colo das glândulas gástricas.",
         "tag": "Sistema Digestório",
@@ -321,7 +321,7 @@
     },
     {
         "id": "41",
-        "nome": "Ducto coletor",
+        "nome": "Ducto Coletor",
         "imgSrc": "ducto_coletor.jpeg",
         "descricao": "O ducto coletor é composto por um epitélio simples cúbico sem microvilosidades. À medida que se dirige para as papilas suas células ficam mais altas e se tornam cilíndricas. Suas células são claras em microscópio eletrônico e são pobres em organelas.",
         "tag": "Sistema Urinário",
@@ -329,7 +329,7 @@
     },
     {
         "id": "42",
-        "nome": "Ducto coletor",
+        "nome": "Ducto Coletor",
         "imgSrc": "ducto_coletor.jpeg",
         "descricao": "O ducto coletor é composto por um epitélio simples cúbico sem microvilosidades. À medida que se dirige para as papilas suas células ficam mais altas e se tornam cilíndricas. Suas células são claras em microscópio eletrônico e são pobres em organelas.",
         "tag": "Sistema Urinário",
@@ -369,7 +369,7 @@
     },
     {
         "id": "47",
-        "nome": "Túbulo proximal",
+        "nome": "Túbulo Proximal",
         "imgSrc": "tubulo_proximal.jpeg",
         "descricao": "O Túbulo proximal compõe o sistema tubular do néfron, sucedendo o corpúsculo renal e antecedendo a alça de Henle. Contém partes contorcidas e retas, sendo o túbulo reto proximal estendido até a medula. Ambas as partes são compostas por epitélio cúbico simples, com muitas mitocôndrias e microvilosidades, o que permite uma função de absorção e secreção do túbulo proximal.",
         "tag": "Sistema Urinário",
@@ -377,7 +377,7 @@
     },
     {
         "id": "48",
-        "nome": "Túbulo proximal",
+        "nome": "Túbulo Proximal",
         "imgSrc": "tubulo_proximal.jpeg",
         "descricao": "O Túbulo proximal compõe o sistema tubular do néfron, sucedendo o corpúsculo renal e antecedendo a alça de Henle. Contém partes contorcidas e retas, sendo o túbulo reto proximal estendido até a medula. Ambas as partes são compostas por epitélio cúbico simples, com muitas mitocôndrias e microvilosidades, o que permite uma função de absorção e secreção do túbulo proximal.",
         "tag": "Sistema Urinário",
