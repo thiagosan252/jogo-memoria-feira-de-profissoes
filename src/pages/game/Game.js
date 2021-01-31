@@ -115,7 +115,7 @@ function App() {
 
         if (countSelectedCards.find((c) => c.nome === cardItem.nome)) {
           setCountMatchingCards([...countMatchingCards, ...countSelectedCards, cardItem]);
-          //stopTimer();
+
           await timeout(700); //for 0.7 sec delay
           setHitsCount(hitsCount + 1)
           setCountSelectedCards([]);
@@ -203,7 +203,7 @@ function App() {
             <div className="row d-flex justify-content-start align-items-start">
               <p className="text-left text-wrap text-break">
                 <span className="text-muted font-weight-bold" style={{ fontSize: '12px' }}>TAG:&nbsp;</span>
-                <p onClick={() => false} className="badge badge-pill badge-info tag">{lastItem.tag}</p>
+                <span onClick={() => false} className="badge badge-pill badge-info tag">{lastItem.tag}</span>
               </p>
             </div>
           </div>
@@ -223,6 +223,7 @@ function App() {
   useEffect(() => {
 
     setSeconds(15);
+    setVisible(true)
     cards.forEach((c) => c.flipped = true);
     setCardsFinal(shuffleArray(cards));
 
