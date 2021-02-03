@@ -225,7 +225,10 @@ function App() {
     setSeconds(15);
     setVisible(true)
     cards.forEach((c) => c.flipped = true);
-    setCardsFinal(shuffleArray(cards));
+
+    if(cardsFinal.length === 0){
+      setCardsFinal(shuffleArray(cards));
+    }    
 
     let count = 16;
     let contador;
