@@ -1,9 +1,6 @@
 {
   "name": "jogo-memoria",
   "version": "0.1.0",
-  "engines": {
-    "node": "12.18.4"
-  },
   "private": true,
   "dependencies": {
     "@sweetalert/with-react": "^0.1.1",
