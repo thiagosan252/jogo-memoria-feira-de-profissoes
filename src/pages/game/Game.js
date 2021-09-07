@@ -146,7 +146,7 @@ function App() {
 
   useEffect(() => {
     if (!localStorage.getItem('shuffle')) {
-      localStorage.setItem('shuffle', false);
+      localStorage.setItem('shuffle', true);
     }
   }, []);
 
@@ -235,14 +235,12 @@ function App() {
     const shuffle = localStorage.getItem('shuffle') ? JSON.parse(localStorage.getItem('shuffle')) : false;
 
     if (shuffle) {
-      console.log(shuffle)
       setCardsFinal(shuffleArray(cards));
     } else {
-      console.log(shuffle)
       setCardsFinal(cards);
     }
 
-    let count = 16;
+    let count = 11;
     let contador;
 
     const start = () => {
