@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 import ReactCardFlip from 'react-card-flip';
 import swal from '@sweetalert/with-react';
@@ -49,7 +49,7 @@ function App() {
   const [clock, setClock] = useState(0);
   const [offset, setOffset] = useState(null);
   const [isActive, setIsActive] = useState(false);
-  const interval = React.useRef();
+  const interval = useRef();
 
   const stopTimer = () => {
     if (interval.current) {
@@ -209,7 +209,7 @@ function App() {
             <div className="row d-flex justify-content-start align-items-start">
               <p className="text-left text-wrap text-break">
                 <span className="text-muted font-weight-bold" style={{ fontSize: '12px' }}>TAG:&nbsp;</span>
-                <span onClick={() => false} className="badge badge-pill badge-info tag">{lastItem.tag}</span>
+                <span className="badge badge-info tag">{lastItem.tag}</span>
               </p>
             </div>
           </div>

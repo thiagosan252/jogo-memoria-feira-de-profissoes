@@ -13,7 +13,7 @@ ReactDOM.render(
     <MemoryRouter>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/jogar' component={Game} />
+        <Route path='/jogo' component={Game} />
         
       </Switch>
     </MemoryRouter>
