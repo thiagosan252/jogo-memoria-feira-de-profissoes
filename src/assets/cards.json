@@ -1,402 +1,194 @@
 [
     {
-        "id": "47",
-        "nome": "Túbulo Proximal",
-        "imgSrc": "tubulo_proximal.jpeg",
-        "descricao": "O Túbulo proximal compõe o sistema tubular do néfron, sucedendo o corpúsculo renal e antecedendo a alça de Henle. Contém partes contorcidas e retas, sendo o túbulo reto proximal estendido até a medula. Ambas as partes são compostas por epitélio cúbico simples, com muitas mitocôndrias e microvilosidades, o que permite uma função de absorção e secreção do túbulo proximal.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
-        "id": "7",
-        "nome": "Bronquíolos",
-        "imgSrc": "bronquiolos.jpeg",
-        "descricao": "Os bronquíolos são divididos em um bronquíolo terminal que se ramifica em dois bronquíolos respiratórios, contendo sacos alveolares e alvéolos ao seu redor. O epitélio nas porções iniciais do bronquíolo é cilíndrico simples ciliado, passando a cúbico simples, ciliado ou não, na porção terminal. Os bronquíolos terminais possuem uma parede mais delgada e células de clara. Já os bronquíolos respiratórios possuem numerosas expansões saculiformes constituídas por alvéolos, onde ocorrem as trocas gasosas, além disso, também apresentam as células de clara.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },
-    {
-        "id": "27",
-        "nome": "Células da Tireoide",
-        "imgSrc": "celulas_da_tireoide.jpeg",
-        "descricao": "Na glândula da tireoide existem duas principais células: as células foliculares e as parafoliculares. As células foliculares são arranjadas radialmente em torno de um lúmen, elas utilizam o iodo do sangue para produzir hormônios tireoidianos, os quais ajudam na regulação do metabolismo. Já as células parafoliculares produzem a calcitonina, hormônio que auxilia na regulação da forma como o corpo usa o cálcio.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },
-    {
-        "id": "9",
-        "nome": "Células de Clara",
-        "imgSrc": "celulas_de_clara.jpeg",
-        "descricao": "As Células de Clara se encontram nas paredes de um bronquíolo terminal. Elas apresentam grânulos de secreção e possuem a superfície apical evidente e arredondada. Essas células secretam proteínas que protegem o revestimento bronquiolar contra poluentes do ar inspirado e contra inflamações.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },
-    {
-        "id": "35",
-        "nome": "Célula Oxíntica",
-        "imgSrc": "celula_oxintica.jpeg",
-        "descricao": "São encontradas na metade superior das glândulas gástricas, sendo escassas na base. Possuem como características serem arredondas ou piramidais, com um núcleo esférico, central, e com citoplasma eosinofílico. Além disso, essas células possuem muitas mitocôndrias e uma invaginação circular profunda da membrana plasmática apical, formando um canalículo intracelular.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "5",
-        "nome": "Saco Alveolar",
-        "imgSrc": "saco_alveolar.jpeg",
-        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveolos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre o ar e o sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },
-    {
-        "id": "31",
-        "nome": "Botões Gustativos",
-        "imgSrc": "botoes_gustativos.jpeg",
-        "descricao": "Os botões gustativos são responsáveis por fornecer a gustação, estando presentes nas papilas gustativas, na faringe, na laringe e na porção mais alta do esôfago. São encontrados nesses botões 4 tipos de células: as basais; as escuras (de suporte); as claras (gustativas diárias); e as células intermediárias com microvilos. Além disso, os botões gustativos possuem o papel de detectar gorduras (receptor de membranas).",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "3",
-        "nome": "Epitélio Respiratório",
-        "imgSrc": "epitelio_respiratorio.jpeg",
-        "descricao": "O Epitélio Respiratório é composto por um epitélio pseudoestratificado cilíndrico ciliado, com células caliciformes, sendo encontrado nos seios paranasais, na nasofaringe, laringe e traqueia.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },
-    {
-        "id": "17",
-        "nome": "Célula Pericito",
-        "imgSrc": "celular_pericito.jpeg",
-        "descricao": "Pericitos são células que revestem os vasos sanguíneos, as quais possuem importante papel na estabilização e no suporte desses vasos. Além disso, exercem funções de interação com outras células que estão em seu microambiente.",
-        "tag": "",
-        "flipped": false
-    },
-    {
-        "id": "15",
-        "nome": "Células Endoteliais",
-        "imgSrc": "celulas_endoteliais.jpeg",
-        "descricao": "O endotélio é constituído por uma camada simples de células pavimentosas, denominadas células endoteliais, as quais revestem o interior dos vasos sanguíneos, especialmente os capilares sanguíneos. ",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },
-    {
-        "id": "25",
-        "nome": "Zona Reticulada",
-        "imgSrc": "zona_reticulada.jpeg",
-        "descricao": "A zona reticulada é uma camada estreita no limite com a medular, a qual produz os andrógenos. Suas células são organizadas em cordões anastomosados, sintetizando e secretando diidroepiandrosterona, hormônios masculinizantes pouco potentes.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },    
-    {
-        "id": "32",
-        "nome": "Botões Gustativos",
-        "imgSrc": "botoes_gustativos.jpeg",
-        "descricao": "Os botões gustativos são responsáveis por fornecer a gustação, estando presentes nas papilas gustativas, na faringe, na laringe e na porção mais alta do esôfago. São encontrados nesses botões 4 tipos de células: as basais; as escuras (de suporte); as claras (gustativas diárias); e as células intermediárias com microvilos. Além disso, os botões gustativos possuem o papel de detectar gorduras (receptor de membranas).",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "39",
-        "nome": "Célula Enteroendócrinas",
-        "imgSrc": "celula_enteroendocrinas.jpeg",
-        "descricao": "Encontradas próximo da base das glândulas gástricas, essas células secretam principalmente 5-hidroxitriptamina (serotonina) no fundo do estômago. Já outras células enteroendócrinas secretam somatostatina, que inibe a liberação de outros hormônios, inclusive de gastrina.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "28",
-        "nome": "Células da Tireoide",
-        "imgSrc": "celulas_da_tireoide.jpeg",
-        "descricao": "Na glândula da tireoide existem duas principais células: as células foliculares e as parafoliculares. As células foliculares são arranjadas radialmente em torno de um lúmen, elas utilizam o iodo do sangue para produzir hormônios tireoidianos, os quais ajudam na regulação do metabolismo. Já as células parafoliculares produzem a calcitonina, hormônio que auxilia na regulação da forma como o corpo usa o cálcio.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },
-    {
-        "id": "43",
-        "nome": "Rim",
-        "imgSrc": "rim.jpeg",
-        "descricao": "O Rim é constituído pela cápsula de tecido conjuntivo denso, a zona cortical e a zona medular. Ele também é formado pelo néfron, o qual é composto pelo corpúsculo renal ou de Malpighi, pelo túbulo contorcido proximal, pelas partes delgadas e espessas da Alça de Henle e pelo túbulo contorcido distal. Possui função de eliminação e conservação de água, eletrólitos e metabólitos; é responsável pelo equilíbrio hidroeletrolítico; além disso, secretam hormônios como a Renina, que participa da regulação da pressão sanguínea, e a Eritropoetina (EPO), uma glicoproteína que estimula a produção de eritrócitos e também participa da atividade da Vitamina D3.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
         "id": "1",
-        "nome": "Epitélio Olfatório",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O Epitélio Olfatório é responsável pela sensibilidade olfatória sendo encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos de células: as células de sustentação, prismáticas, com microvilos em sua superfície apical, sendo mais larga e mais estreita na base; as células basais, arredondadas e pequenas, presentes na região basal, sendo células-tronco do epitélio olfatório;  e as células olfatórias, as quais são neurônios bipolares com núcleo localizado na porção central mais inferior, além disso, possui em seus dendritos cílios sem mobilidade responsáveis por serem quimiorreceptores excitáveis pelas substâncias odoríferas.",
-        "tag": "Sistema Respiratório",
+        "nome": "Morango",
+        "imgSrc": "morango.jpeg",
+        "descricao": "Fonte de vitamina C, que ajuda na cicatrização e fortalece a parede dos vasos sanguíneos, melhorando a circulação.",
+        "tag": "Frutas",
         "flipped": false
     },
     {
         "id": "2",
-        "nome": "Epitélio Olfatório",
-        "imgSrc": "epitelio_olfatorio.jpeg",
-        "descricao": "O Epitélio Olfatório é responsável pela sensibilidade olfatória sendo encontrado no teto da cavidade nasal. É um neuroepitélio colunar pseudoestratificado formado por 3 tipos de células: as células de sustentação, prismáticas, com microvilos em sua superfície apical, sendo mais larga e mais estreita na base; as células basais, arredondadas e pequenas, presentes na região basal, sendo células-tronco do epitélio olfatório;  e as células olfatórias, as quais são neurônios bipolares com núcleo localizado na porção central mais inferior, além disso, possui em seus dendritos cílios sem mobilidade responsáveis por serem quimiorreceptores excitáveis pelas substâncias odoríferas.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },    
-    {
-        "id": "49",
-        "nome": "Túbulo Distal",
-        "imgSrc": "tubulo_distal.jpeg",
-        "descricao": "Sendo projetado para o córtex, o túbulo distal é constituído por duas partes, o túbulo reto distal e o túbulo contorcido distal. O túbulo reto distal é a continuação do ramo ascendente da alça de Henle a partir do nível entre a medula interna e externa. Ambas as partes do túbulo distal são compostas por epitélio cúbico simples.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },    
-    {
-        "id": "33",
-        "nome": "Célula Mucosa",
-        "imgSrc": "celula_mucosa.jpeg",
-        "descricao": "Essas células possuem um formato irregular, com seus núcleos na base e os grânulos de secreção próximos do polo apical. São encontradas entre as células parietais no colo das glândulas gástricas.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },    
-    {
-        "id": "13",
-        "nome": "Artéria",
-        "imgSrc": "arteria.jpeg",
-        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },    
-    {
-        "id": "6",
-        "nome": "Saco Alveolar",
-        "imgSrc": "saco_alveolar.jpeg",
-        "descricao": "O saco alveolar é um conjunto de alvéolos existentes nas extremidades dos bronquíolos. Os álveolos são uma unidade estrutural e funcional primária, com finas paredes que permitem trocas de CO2 por O2 entre o ar e o sangue dos capilares. É constituído por uma simples camada de epitélio de revestimento pavimentoso.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },    
-    {
-        "id": "41",
-        "nome": "Ducto Coletor",
-        "imgSrc": "ducto_coletor.jpeg",
-        "descricao": "O ducto coletor é composto por um epitélio simples cúbico sem microvilosidades. À medida que se dirige para as papilas suas células ficam mais altas e se tornam cilíndricas. Suas células são claras em microscópio eletrônico e são pobres em organelas.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },  
-    {
-        "id": "50",
-        "nome": "Túbulo Distal",
-        "imgSrc": "tubulo_distal.jpeg",
-        "descricao": "Sendo projetado para o córtex, o túbulo distal é constituído por duas partes, o túbulo reto distal e o túbulo contorcido distal. O túbulo reto distal é a continuação do ramo ascendente da alça de Henle a partir do nível entre a medula interna e externa. Ambas as partes do túbulo distal são compostas por epitélio cúbico simples.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },    
-    {
-        "id": "29",
-        "nome": "Ilhotas de Langerhans",
-        "imgSrc": "ilhotas_da_langerhans.jpeg",
-        "descricao": "As ilhotas de Langerhans são um grupo de células do pâncreas que produzem os hormônios glucagon, insulina, somatostatina e o polipeptídio pancreático.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },    
-    {
-        "id": "23",
-        "nome": "Zona Fasciculada",
-        "imgSrc": "zona_fasciculada.jpeg",
-        "descricao": "As células da Zona Fasciculada são organizadas em colunas radiais, com diversas gotas lipídicas no citoplasma (espongiócitos). Além disso, essa zona secreta glicocorticóides, que possuem uma ação anti inflamatória e imunossupressora, sendo responsáveis por sintetizarem e secretarem cortisol e corticosterona. A zona fasciculada também realiza o controle do metabolismo de carboidratos, gorduras e proteínas.",
-        "tag": "Sistema Endócrino",
+        "nome": "Mamão",
+        "imgSrc": "mamao.jpeg",
+        "descricao": "Fonte de vitamina A, vitamina E, vitamina C, fibras, licopeno. Ajuda a manter o funcionamento do intestino. As sementes também podem ser consumidas, sendo fontes de fibras e anti-helmíntico.",
+        "tag": "Frutas",
         "flipped": false
     },
     {
-        "id": "10",
-        "nome": "Células de Clara",
-        "imgSrc": "celulas_de_clara.jpeg",
-        "descricao": "As Células de Clara se encontram nas paredes de um bronquíolo terminal. Elas apresentam grânulos de secreção e possuem a superfície apical evidente e arredondada. Essas células secretam proteínas que protegem o revestimento bronquiolar contra poluentes do ar inspirado e contra inflamações.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },
-    {
-        "id": "21",
-        "nome": "Zona Glomerulosa",
-        "imgSrc": "zona_glomerulosa.jpeg",
-        "descricao": "A Zona Glomerulosa é composta por células que são organizadas em cordões que sintetizam e secretam aldosterona. A aldosterona é um hormônio esteroide produzido pelo córtex adrenal. A função da aldosterona no metabolismo é controlar o sódio e o potássio, regulando o volume de fluidos. A aldosterona atua para diminuir a excreção de sódio e aumentar a excreção de potássio nos rins, nas glândulas sudoríparas e nas glândulas salivares.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },
-    {
-        "id": "19",
-        "nome": "Capilares",
-        "imgSrc": "capilares.jpeg",
-        "descricao": "Os capilares sanguíneos realizam trocas de substâncias entre o sangue e o líquido intersticial. São estruturas com células poligonais (com o núcleo projetado para luz do capilar), com poucas organelas e possuem zonas de oclusão, permitindo permeabilidade a macromoléculas. Além disso, podem ser caracterizados como: contínuos ou somáticos, com ausência de fenestras; fenestrado ou visceral; e sinusóide, com trajeto sinuoso e calibre aumentado.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },
-    {
-        "id": "40",
-        "nome": "Célula Enteroendócrinas",
-        "imgSrc": "celula_enteroendocrinas.jpeg",
-        "descricao": "Encontradas próximo da base das glândulas gástricas, essas células secretam principalmente 5-hidroxitriptamina (serotonina) no fundo do estômago. Já outras células enteroendócrinas secretam somatostatina, que inibe a liberação de outros hormônios, inclusive de gastrina.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "20",
-        "nome": "Capilares",
-        "imgSrc": "capilares.jpeg",
-        "descricao": "Os capilares sanguíneos realizam trocas de substâncias entre o sangue e o líquido intersticial. São estruturas com células poligonais (com o núcleo projetado para luz do capilar), com poucas organelas e possuem zonas de oclusão, permitindo permeabilidade a macromoléculas. Além disso, podem ser caracterizados como: contínuos ou somáticos, com ausência de fenestras; fenestrado ou visceral; e sinusóide, com trajeto sinuoso e calibre aumentado.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },
-    {
-        "id": "30",
-        "nome": "Ilhotas de Langerhans",
-        "imgSrc": "ilhotas_da_langerhans.jpeg",
-        "descricao": "As ilhotas de Langerhans são um grupo de células do pâncreas que produzem os hormônios glucagon, insulina, somatostatina e o polipeptídio pancreático.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },
-    {
-        "id": "37",
-        "nome": "Célula Zimogênica",
-        "imgSrc": "celula_zimogenica.jpeg",
-        "descricao": "Essas células são encontradas na porção inferior das glândulas gástricas e possuem as características de células que sintetizam e exportam proteínas. As células zimogênicas obtêm grande quantidade de retículo endoplasmático rugoso, o que proporciona a ela sua basofilia. Os grânulos no citoplasma possuem pepsinogênio (enzima inativa) o qual é transformado na enzima proteolítica pepsina após ser secretado no ph ácido do estômago. Além disso, nos seres humanos as células zimogênicas também produzem a enzima lipase.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "26",
-        "nome": "Zona Reticulada",
-        "imgSrc": "zona_reticulada.jpeg",
-        "descricao": "A zona reticulada é uma camada estreita no limite com a medular, a qual produz os andrógenos. Suas células são organizadas em cordões anastomosados, sintetizando e secretando diidroepiandrosterona, hormônios masculinizantes pouco potentes.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },
-    {
-        "id": "22",
-        "nome": "Zona Glomerulosa",
-        "imgSrc": "zona_glomerulosa.jpeg",
-        "descricao": "A Zona Glomerulosa é composta por células que são organizadas em cordões que sintetizam e secretam aldosterona. A aldosterona é um hormônio esteroide produzido pelo córtex adrenal. A função da aldosterona no metabolismo é controlar o sódio e o potássio, regulando o volume de fluidos. A aldosterona atua para diminuir a excreção de sódio e aumentar a excreção de potássio nos rins, nas glândulas sudoríparas e nas glândulas salivares.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },
-    {
-        "id": "14",
-        "nome": "Artéria",
-        "imgSrc": "arteria.jpeg",
-        "descricao": "As artérias possuem uma luz regular, podendo ser classificadas em elásticas (condutoras), musculares (distribuidoras) que se ramificam em arteríolas e metarteríolas. São compostas por três camadas: a túnica íntima ou interna, formada por células epiteliais, tecido conjuntivo e uma membrana elástica externa; a túnica média, uma camada intermediária, constituída por fibras elásticas, colágenas e  tecido muscular liso; e a túnica adventícia, sendo uma camada mais externa e constituída por tecido conjuntivo e fibras colágenas e elásticas, ela não apresenta uma membrana limitante interna, o que a faz ser contínua com o tecido conjuntivo adjacente.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },    
-    {
-        "id": "48",
-        "nome": "Túbulo Proximal",
-        "imgSrc": "tubulo_proximal.jpeg",
-        "descricao": "O Túbulo proximal compõe o sistema tubular do néfron, sucedendo o corpúsculo renal e antecedendo a alça de Henle. Contém partes contorcidas e retas, sendo o túbulo reto proximal estendido até a medula. Ambas as partes são compostas por epitélio cúbico simples, com muitas mitocôndrias e microvilosidades, o que permite uma função de absorção e secreção do túbulo proximal.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
-        "id": "45",
-        "nome": "Corpúsculo Renal",
-        "imgSrc": "corpusculo_renal.jpeg",
-        "descricao": "Os Corpúsculos Renais estão localizados no córtex renal, sendo o aparelho de filtração do néfron. Cada corpúsculo é composto por dois elementos principais: o glomérulo e a cápsula de Bowman (glomerular). O glomérulo é uma rede de capilares formados por ramos das arteríolas aferente e eferente. As arteríolas aferente e eferente entram no corpúsculo renal no chamado polo vascular, enquanto que o local onde a cápsula glomerular se estreita e continua como segmento espesso proximal do néfron é chamado de polo urinário. Já a cápsula glomerular envolve o glomérulo, consistindo em duas camadas (parietal e visceral), que limitam o espaço capsular glomerular. A camada visceral interna é formada por células especiais, os podócitos.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
-        "id": "44",
-        "nome": "Rim",
-        "imgSrc": "rim.jpeg",
-        "descricao": "O Rim é constituído pela cápsula de tecido conjuntivo denso, a zona cortical e a zona medular. Ele também é formado pelo néfron, o qual é composto pelo corpúsculo renal ou de Malpighi, pelo túbulo contorcido proximal, pelas partes delgadas e espessas da Alça de Henle e pelo túbulo contorcido distal. Possui função de eliminação e conservação de água, eletrólitos e metabólitos; é responsável pelo equilíbrio hidroeletrolítico; além disso, secretam hormônios como a Renina, que participa da regulação da pressão sanguínea, e a Eritropoetina (EPO), uma glicoproteína que estimula a produção de eritrócitos e também participa da atividade da Vitamina D3.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
-        "id": "18",
-        "nome": "Célula Pericito",
-        "imgSrc": "celular_pericito.jpeg",
-        "descricao": "Pericitos são células que revestem os vasos sanguíneos, as quais possuem importante papel na estabilização e no suporte desses vasos. Além disso, exercem funções de interação com outras células que estão em seu microambiente.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },
-    {
-        "id": "46",
-        "nome": "Corpúsculo Renal",
-        "imgSrc": "corpusculo_renal.jpeg",
-        "descricao": "Os Corpúsculos Renais estão localizados no córtex renal, sendo o aparelho de filtração do néfron. Cada corpúsculo é composto por dois elementos principais: o glomérulo e a cápsula de Bowman (glomerular). O glomérulo é uma rede de capilares formados por ramos das arteríolas aferente e eferente. As arteríolas aferente e eferente entram no corpúsculo renal no chamado polo vascular, enquanto que o local onde a cápsula glomerular se estreita e continua como segmento espesso proximal do néfron é chamado de polo urinário. Já a cápsula glomerular envolve o glomérulo, consistindo em duas camadas (parietal e visceral), que limitam o espaço capsular glomerular. A camada visceral interna é formada por células especiais, os podócitos.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
-        "id": "11",
-        "nome": "Veias Médias",
-        "imgSrc": "veias_medias.jpeg",
-        "descricao": "As Veias possuem como característica de corte uma luz irregular, sendo compostas por três túnicas: uma túnica íntima com uma camada subendotelial fina ou ausente; uma túnica média, a qual contém células musculares lisas acompanhadas com fibras reticulares e poucas fibras elásticas; e uma túnica adventícia bem desenvolvida e com mais colágeno.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },
-    {
-        "id": "16",
-        "nome": "Células Endoteliais",
-        "imgSrc": "celulas_endoteliais.jpeg",
-        "descricao": "O endotélio é constituído por uma camada simples de células pavimentosas, denominadas células endoteliais, as quais revestem o interior dos vasos sanguíneos, especialmente os capilares sanguíneos. ",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    },
-    {
-        "id": "42",
-        "nome": "Ducto Coletor",
-        "imgSrc": "ducto_coletor.jpeg",
-        "descricao": "O ducto coletor é composto por um epitélio simples cúbico sem microvilosidades. À medida que se dirige para as papilas suas células ficam mais altas e se tornam cilíndricas. Suas células são claras em microscópio eletrônico e são pobres em organelas.",
-        "tag": "Sistema Urinário",
-        "flipped": false
-    },
-    {
-        "id": "36",
-        "nome": "Célula Oxíntica",
-        "imgSrc": "celula_oxintica.jpeg",
-        "descricao": "São encontradas na metade superior das glândulas gástricas, sendo escassas na base. Possuem como características serem arredondas ou piramidais, com um núcleo esférico, central, e com citoplasma eosinofílico. Além disso, essas células possuem muitas mitocôndrias e uma invaginação circular profunda da membrana plasmática apical, formando um canalículo intracelular.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },
-    {
-        "id": "24",
-        "nome": "Zona Fasciculada",
-        "imgSrc": "zona_fasciculada.jpeg",
-        "descricao": "As células da Zona Fasciculada são organizadas em colunas radiais, com diversas gotas lipídicas no citoplasma (espongiócitos). Além disso, essa zona secreta glicocorticóides, que possuem uma ação anti inflamatória e imunossupressora, sendo responsáveis por sintetizarem e secretarem cortisol e corticosterona. A zona fasciculada também realiza o controle do metabolismo de carboidratos, gorduras e proteínas.",
-        "tag": "Sistema Endócrino",
-        "flipped": false
-    },   
-    {
-        "id": "12",
-        "nome": "Veias Médias",
-        "imgSrc": "veias_medias.jpeg",
-        "descricao": "As Veias possuem como característica de corte uma luz irregular, sendo compostas por três túnicas: uma túnica íntima com uma camada subendotelial fina ou ausente; uma túnica média, a qual contém células musculares lisas acompanhadas com fibras reticulares e poucas fibras elásticas; e uma túnica adventícia bem desenvolvida e com mais colágeno.",
-        "tag": "Sistema Cardio-Vascular",
-        "flipped": false
-    }, 
-    {
-        "id": "34",
-        "nome": "Célula Mucosa",
-        "imgSrc": "celula_mucosa.jpeg",
-        "descricao": "Essas células possuem um formato irregular, com seus núcleos na base e os grânulos de secreção próximos do polo apical. São encontradas entre as células parietais no colo das glândulas gástricas.",
-        "tag": "Sistema Digestório",
-        "flipped": false
-    },    
-    {
-        "id": "8",
-        "nome": "Bronquíolos",
-        "imgSrc": "bronquiolos.jpeg",
-        "descricao": "Os bronquíolos são divididos em um bronquíolo terminal que se ramifica em dois bronquíolos respiratórios, contendo sacos alveolares e alvéolos ao seu redor. O epitélio nas porções iniciais do bronquíolo é cilíndrico simples ciliado, passando a cúbico simples, ciliado ou não, na porção terminal. Os bronquíolos terminais possuem uma parede mais delgada e células de clara. Já os bronquíolos respiratórios possuem numerosas expansões saculiformes constituídas por alvéolos, onde ocorrem as trocas gasosas, além disso, também apresentam as células de clara.",
-        "tag": "Sistema Respiratório",
-        "flipped": false
-    },
-    {
-        "id": "38",
-        "nome": "Célula Zimogênica",
-        "imgSrc": "celula_zimogenica.jpeg",
-        "descricao": "Essas células são encontradas na porção inferior das glândulas gástricas e possuem as características de células que sintetizam e exportam proteínas. As células zimogênicas obtêm grande quantidade de retículo endoplasmático rugoso, o que proporciona a ela sua basofilia. Os grânulos no citoplasma possuem pepsinogênio (enzima inativa) o qual é transformado na enzima proteolítica pepsina após ser secretado no ph ácido do estômago. Além disso, nos seres humanos as células zimogênicas também produzem a enzima lipase.",
-        "tag": "Sistema Digestório",
+        "id": "3",
+        "nome": "Rabanete",
+        "imgSrc": "rabanete.jpeg",
+        "descricao": "Fontes de antioxidantes, inibindo radicais livres, possuem fibras alimentares, vitamina C, magnésio, potássio e fósforo. É responsável por ajudar a controlar a pressão arterial, o bom funcionamento do sistema respiratório, sendo também fonte de cálcio.",
+        "tag": "Legumes",
         "flipped": false
     },
     {
         "id": "4",
-        "nome": "Epitélio Respiratório",
-        "imgSrc": "epitelio_respiratorio.jpeg",
-        "descricao": "O Epitélio Respiratório é composto por um epitélio pseudoestratificado cilíndrico ciliado, com células caliciformes, sendo encontrado nos seios paranasais, na nasofaringe, laringe e traqueia.",
-        "tag": "Sistema Respiratório",
+        "nome": "Kiwi",
+        "imgSrc": "kiwi.jpeg",
+        "descricao": "Fontes de vitamina C, vitamina K, potássio, folato e fibras. Possui compostos bioativos, como os antioxidantes e flavonoides, que ajudam a reduzir a inflamação do trato respiratório e o estresse oxidativo.",
+        "tag": "Frutas",
         "flipped": false
-    }  
+    },
+    {
+        "id": "5",
+        "nome": "Beringela",
+        "imgSrc": "beringela.jpeg",
+        "descricao": "Fonte de vitamina C, flavonoides e nasunin que atuam prevenindo o desenvolvimento de doenças cardiovasculares e diminuindo os níveis de colesterol LDL e triglicerídeos. Além disso é fonte de ácido fólico e fibras.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "6",
+        "nome": "Pera",
+        "imgSrc": "pera.jpeg",
+        "descricao": "Fonte de potássio, fósforo, magnésio, antioxidantes e vitaminas A, B e C. É rica em fibras e possui um baixo índice glicêmico, ajudando no controle do diabetes.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "7",
+        "nome": "Maçã",
+        "imgSrc": "maca.jpeg",
+        "descricao": "Fonte de vitamina C, vitamina A e vitamina E, tendo ação antioxidantes combatendo os radicais livre. Contribui no controle do diabetes, a diminuição do colesterol e melhorando a digestão.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "8",
+        "nome": "Cenoura",
+        "imgSrc": "cenoura.jpeg",
+        "descricao": "Fonte de vitamina A carotenoides, potássio, fibras e antioxidantes, proporciona saúde visual, melhora o sistema imunológico, previne o envelhecimento e alguns câncer.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "9",
+        "nome": "Brócolis",
+        "imgSrc": "brocolis.jpeg",
+        "descricao": "Fonte de vitamina K, vitamina C, glucosinolatos e selênio. Possui sulforafanos, que são compostos que poderiam ajudar a prevenir alterações celulares cancerígenas, além de estarem associados a um menor risco de infarto do miocárdio. Além disso é capaz de manter a pressão arterial controlada.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "10",
+        "nome": "Banana",
+        "imgSrc": "banana.jpeg",
+        "descricao": "Fontes de vitamina C, vitaminas B6, fibra, potássio, magnésio, ajuda a combater o colesterol e contém triptofano, ajudando a melhorar o humor.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "11",
+        "nome": "Laranja",
+        "imgSrc": "laranja.jpeg",
+        "descricao": "Fontes de fibras, vitamina A, vitamina B e vitamina C, flavonoides e betacaroteno, sendo antioxidantes e anti-inflamatórias, auxiliando no combate ao envelhecimento precoce, reduzindo o colesterol ruim, protegendo de doenças cardiovasculares, e fortalecem o sistema imunológico. Contem também potássio e cálcio, responsáveis pela regulação da pressão arterial.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "12",
+        "nome": "Abacaxi",
+        "imgSrc": "abacaxi.jpeg",
+        "descricao": "Fontes de vitamina C, betacaroteno, potássio, magnésio, manganês, fibras e cálcio. Atua como anti-inflamatório, contem bromelina e antioxidantes.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "13",
+        "nome": "Morango",
+        "imgSrc": "morango.jpeg",
+        "descricao": "Fonte de vitamina C, que ajuda na cicatrização e fortalece a parede dos vasos sanguíneos, melhorando a circulação.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "14",
+        "nome": "Mamão",
+        "imgSrc": "mamao.jpeg",
+        "descricao": "Fonte de vitamina A, vitamina E, vitamina C, fibras, licopeno. Ajuda a manter o funcionamento do intestino. As sementes também podem ser consumidas, sendo fontes de fibras e anti-helmíntico.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "15",
+        "nome": "Rabanete",
+        "imgSrc": "rabanete.jpeg",
+        "descricao": "Fontes de antioxidantes, inibindo radicais livres, possuem fibras alimentares, vitamina C, magnésio, potássio e fósforo. É responsável por ajudar a controlar a pressão arterial, o bom funcionamento do sistema respiratório, sendo também fonte de cálcio.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "16",
+        "nome": "Kiwi",
+        "imgSrc": "kiwi.jpeg",
+        "descricao": "Fontes de vitamina C, vitamina K, potássio, folato e fibras. Possui compostos bioativos, como os antioxidantes e flavonoides, que ajudam a reduzir a inflamação do trato respiratório e o estresse oxidativo.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "17",
+        "nome": "Beringela",
+        "imgSrc": "beringela.jpeg",
+        "descricao": "Fonte de vitamina C, flavonoides e nasunin que atuam prevenindo o desenvolvimento de doenças cardiovasculares e diminuindo os níveis de colesterol LDL e triglicerídeos. Além disso é fonte de ácido fólico e fibras.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "18",
+        "nome": "Pera",
+        "imgSrc": "pera.jpeg",
+        "descricao": "Fonte de potássio, fósforo, magnésio, antioxidantes e vitaminas A, B e C. É rica em fibras e possui um baixo índice glicêmico, ajudando no controle do diabetes.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "19",
+        "nome": "Maçã",
+        "imgSrc": "maca.jpeg",
+        "descricao": "Fonte de vitamina C, vitamina A e vitamina E, tendo ação antioxidantes combatendo os radicais livre. Contribui no controle do diabetes, a diminuição do colesterol e melhorando a digestão.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "20",
+        "nome": "Cenoura",
+        "imgSrc": "cenoura.jpeg",
+        "descricao": "Fonte de vitamina A carotenoides, potássio, fibras e antioxidantes, proporciona saúde visual, melhora o sistema imunológico, previne o envelhecimento e alguns câncer.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "21",
+        "nome": "Brócolis",
+        "imgSrc": "brocolis.jpeg",
+        "descricao": "Fonte de vitamina K, vitamina C, glucosinolatos e selênio. Possui sulforafanos, que são compostos que poderiam ajudar a prevenir alterações celulares cancerígenas, além de estarem associados a um menor risco de infarto do miocárdio. Além disso é capaz de manter a pressão arterial controlada.",
+        "tag": "Legumes",
+        "flipped": false
+    },
+    {
+        "id": "22",
+        "nome": "Banana",
+        "imgSrc": "banana.jpeg",
+        "descricao": "Fontes de vitamina C, vitaminas B6, fibra, potássio, magnésio, ajuda a combater o colesterol e contém triptofano, ajudando a melhorar o humor.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "23",
+        "nome": "Laranja",
+        "imgSrc": "laranja.jpeg",
+        "descricao": "Fontes de fibras, vitamina A, vitamina B e vitamina C, flavonoides e betacaroteno, sendo antioxidantes e anti-inflamatórias, auxiliando no combate ao envelhecimento precoce, reduzindo o colesterol ruim, protegendo de doenças cardiovasculares, e fortalecem o sistema imunológico. Contem também potássio e cálcio, responsáveis pela regulação da pressão arterial.",
+        "tag": "Frutas",
+        "flipped": false
+    },
+    {
+        "id": "24",
+        "nome": "Abacaxi",
+        "imgSrc": "abacaxi.jpeg",
+        "descricao": "Fontes de vitamina C, betacaroteno, potássio, magnésio, manganês, fibras e cálcio. Atua como anti-inflamatório, contem bromelina e antioxidantes.",
+        "tag": "Frutas",
+        "flipped": false
+    }
 ]
