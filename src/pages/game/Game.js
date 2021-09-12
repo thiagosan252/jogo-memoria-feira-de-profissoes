@@ -318,7 +318,7 @@ function App() {
             return (
               <ReactCardFlip key={card.id} isFlipped={card.flipped ? card.flipped : false} flipDirection="horizontal">
                 <Col className="col-auto mb-1 p-1">
-                  <Card inverse className={visible ? 'border-0 disabled' : 'border-0 pointer'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                  <Card inverse className={visible ? 'disabled' : 'pointer'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={svgDefault} width="116.792px" height="116.604px" />
                     <CardImgOverlay style={{ top: '20px', left: '4px' }}>
                       <CardText style={{ transform: 'rotate(330deg)' }}>
@@ -328,7 +328,7 @@ function App() {
                   </Card>
                 </Col>
                 <Col className="col-auto mb-1 p-1">
-                  <Card inverse className={visible ? 'border-0 disabled' : 'border-0 pointer'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
+                  <Card inverse className={visible ? 'disabled' : 'pointer'} onClick={() => !isDisabled ? handleClick(card) : undefined}>
                     <CardImg src={`./images/${card.imgSrc}`} />
                     <CardImgOverlay style={{ top: '80px', padding: '.5rem' }}>
                       <CardText className="text-justify text-truncate card-text-back">
