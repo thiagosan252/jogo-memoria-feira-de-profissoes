@@ -72,26 +72,10 @@
         "flipped": false
     },
     {
-        "id": "10",
-        "nome": "Banana",
-        "imgSrc": "banana.jpeg",
-        "descricao": "Fontes de vitamina C, vitaminas B6, fibra, potássio, magnésio, ajuda a combater o colesterol e contém triptofano, ajudando a melhorar o humor.",
-        "tag": "Frutas",
-        "flipped": false
-    },
-    {
         "id": "11",
         "nome": "Laranja",
         "imgSrc": "laranja.jpeg",
         "descricao": "Fontes de fibras, vitamina A, vitamina B e vitamina C, flavonoides e betacaroteno, sendo antioxidantes e anti-inflamatórias, auxiliando no combate ao envelhecimento precoce, reduzindo o colesterol ruim, protegendo de doenças cardiovasculares, e fortalecem o sistema imunológico. Contem também potássio e cálcio, responsáveis pela regulação da pressão arterial.",
-        "tag": "Frutas",
-        "flipped": false
-    },
-    {
-        "id": "12",
-        "nome": "Abacaxi",
-        "imgSrc": "abacaxi.jpeg",
-        "descricao": "Fontes de vitamina C, betacaroteno, potássio, magnésio, manganês, fibras e cálcio. Atua como anti-inflamatório, contem bromelina e antioxidantes.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -168,26 +152,10 @@
         "flipped": false
     },
     {
-        "id": "22",
-        "nome": "Banana",
-        "imgSrc": "banana.jpeg",
-        "descricao": "Fontes de vitamina C, vitaminas B6, fibra, potássio, magnésio, ajuda a combater o colesterol e contém triptofano, ajudando a melhorar o humor.",
-        "tag": "Frutas",
-        "flipped": false
-    },
-    {
         "id": "23",
         "nome": "Laranja",
         "imgSrc": "laranja.jpeg",
         "descricao": "Fontes de fibras, vitamina A, vitamina B e vitamina C, flavonoides e betacaroteno, sendo antioxidantes e anti-inflamatórias, auxiliando no combate ao envelhecimento precoce, reduzindo o colesterol ruim, protegendo de doenças cardiovasculares, e fortalecem o sistema imunológico. Contem também potássio e cálcio, responsáveis pela regulação da pressão arterial.",
-        "tag": "Frutas",
-        "flipped": false
-    },
-    {
-        "id": "24",
-        "nome": "Abacaxi",
-        "imgSrc": "abacaxi.jpeg",
-        "descricao": "Fontes de vitamina C, betacaroteno, potássio, magnésio, manganês, fibras e cálcio. Atua como anti-inflamatório, contem bromelina e antioxidantes.",
         "tag": "Frutas",
         "flipped": false
     }
