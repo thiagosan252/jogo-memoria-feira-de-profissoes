@@ -3,7 +3,7 @@
         "id": "1",
         "nome": "Morango",
         "imgSrc": "morango.jpeg",
-        "descricao": "Fonte de vitamina C, que ajuda na cicatrização e fortalece a parede dos vasos sanguíneos, melhorando a circulação.",
+        "descricao": "Sou uma fruta rasteira e vermelha, rica em vitamina C, A, E, B5 e B6 e baixo valor calórico.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "nome": "Mamão",
         "imgSrc": "mamao.jpeg",
-        "descricao": "Fonte de vitamina A, vitamina E, vitamina C, fibras, licopeno. Ajuda a manter o funcionamento do intestino. As sementes também podem ser consumidas, sendo fontes de fibras e anti-helmíntico.",
+        "descricao": "Rico em licopeno e vitamina C, auxilia no funcionamento do intestino, suas sementes também podem ser consumidas.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -19,7 +19,7 @@
         "id": "3",
         "nome": "Rabanete",
         "imgSrc": "rabanete.jpeg",
-        "descricao": "Fontes de antioxidantes, inibindo radicais livres, possuem fibras alimentares, vitamina C, magnésio, potássio e fósforo. É responsável por ajudar a controlar a pressão arterial, o bom funcionamento do sistema respiratório, sendo também fonte de cálcio.",
+        "descricao": "Raiz tuberosa, de formato arredondado ou alongado possui casca de coloração predominantemente avermelhada e polpa branca, fonte de vitamina C e fibras alimentares.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -27,7 +27,7 @@
         "id": "4",
         "nome": "Kiwi",
         "imgSrc": "kiwi.jpeg",
-        "descricao": "Fontes de vitamina C, vitamina K, potássio, folato e fibras. Possui compostos bioativos, como os antioxidantes e flavonoides, que ajudam a reduzir a inflamação do trato respiratório e o estresse oxidativo.",
+        "descricao": "Fruta de casca fina e marrom, polpa verde, cremosa, com sementes pretas no seu interior, fontes de vitamina C, vitamina K, potássio, folato e fibras.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -35,7 +35,7 @@
         "id": "5",
         "nome": "Beringela",
         "imgSrc": "beringela.jpeg",
-        "descricao": "Fonte de vitamina C, flavonoides e nasunin que atuam prevenindo o desenvolvimento de doenças cardiovasculares e diminuindo os níveis de colesterol LDL e triglicerídeos. Além disso é fonte de ácido fólico e fibras.",
+        "descricao": "Fonte de vitamina C, ácido fólico e fibras. Alguns estudos mostram sua eficácia na redução do colesterol.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "nome": "Pera",
         "imgSrc": "pera.jpeg",
-        "descricao": "Fonte de potássio, fósforo, magnésio, antioxidantes e vitaminas A, B e C. É rica em fibras e possui um baixo índice glicêmico, ajudando no controle do diabetes.",
+        "descricao": "É uma fruta rica em vitamina A e C, de baixo valor energético e elevado teor de água.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "nome": "Maçã",
         "imgSrc": "maca.jpeg",
-        "descricao": "Fonte de vitamina C, vitamina A e vitamina E, tendo ação antioxidantes combatendo os radicais livre. Contribui no controle do diabetes, a diminuição do colesterol e melhorando a digestão.",
+        "descricao": "É uma das frutas mais cultivadas e consumidas no mundo, fonte de vitamina C, A e E, além de ser rica em antioxidantes.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "nome": "Cenoura",
         "imgSrc": "cenoura.jpeg",
-        "descricao": "Fonte de vitamina A carotenoides, potássio, fibras e antioxidantes, proporciona saúde visual, melhora o sistema imunológico, previne o envelhecimento e alguns câncer.",
+        "descricao": "Podem ser consumidas cruas, inteiras, ou como parte de saladas, cozidas em sopas e refogados. Fonte de fibras, carotenoides e antioxidantes.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -67,7 +67,7 @@
         "id": "9",
         "nome": "Brócolis",
         "imgSrc": "brocolis.jpeg",
-        "descricao": "Fonte de vitamina K, vitamina C, glucosinolatos e selênio. Possui sulforafanos, que são compostos que poderiam ajudar a prevenir alterações celulares cancerígenas, além de estarem associados a um menor risco de infarto do miocárdio. Além disso é capaz de manter a pressão arterial controlada.",
+        "descricao": "É um vegetal crucífero onde as folhas, as flores e os pedúnculos florais são comestíveis. Fonte de vitamina K, vitamina C, glucosinolatos e selênio.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -75,7 +75,7 @@
         "id": "11",
         "nome": "Laranja",
         "imgSrc": "laranja.jpeg",
-        "descricao": "Fontes de fibras, vitamina A, vitamina B e vitamina C, flavonoides e betacaroteno, sendo antioxidantes e anti-inflamatórias, auxiliando no combate ao envelhecimento precoce, reduzindo o colesterol ruim, protegendo de doenças cardiovasculares, e fortalecem o sistema imunológico. Contem também potássio e cálcio, responsáveis pela regulação da pressão arterial.",
+        "descricao": "A vitamina C é seu nutriente mais importante, duas frutas dessa ao dia fornecem a quantidade de vitamina C de que o organismo precisa.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -83,7 +83,7 @@
         "id": "13",
         "nome": "Morango",
         "imgSrc": "morango.jpeg",
-        "descricao": "Fonte de vitamina C, que ajuda na cicatrização e fortalece a parede dos vasos sanguíneos, melhorando a circulação.",
+        "descricao": "Sou uma fruta rasteira e vermelha, rica em vitamina C, A, E, B5 e B6 e baixo valor calórico.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -91,7 +91,7 @@
         "id": "14",
         "nome": "Mamão",
         "imgSrc": "mamao.jpeg",
-        "descricao": "Fonte de vitamina A, vitamina E, vitamina C, fibras, licopeno. Ajuda a manter o funcionamento do intestino. As sementes também podem ser consumidas, sendo fontes de fibras e anti-helmíntico.",
+        "descricao": "Rico em licopeno e vitamina C, auxilia no funcionamento do intestino, suas sementes também podem ser consumidas.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -99,7 +99,7 @@
         "id": "15",
         "nome": "Rabanete",
         "imgSrc": "rabanete.jpeg",
-        "descricao": "Fontes de antioxidantes, inibindo radicais livres, possuem fibras alimentares, vitamina C, magnésio, potássio e fósforo. É responsável por ajudar a controlar a pressão arterial, o bom funcionamento do sistema respiratório, sendo também fonte de cálcio.",
+        "descricao": "Raiz tuberosa, de formato arredondado ou alongado possui casca de coloração predominantemente avermelhada e polpa branca, fonte de vitamina C e fibras alimentares.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -107,7 +107,7 @@
         "id": "16",
         "nome": "Kiwi",
         "imgSrc": "kiwi.jpeg",
-        "descricao": "Fontes de vitamina C, vitamina K, potássio, folato e fibras. Possui compostos bioativos, como os antioxidantes e flavonoides, que ajudam a reduzir a inflamação do trato respiratório e o estresse oxidativo.",
+        "descricao": "Fruta de casca fina e marrom, polpa verde, cremosa, com sementes pretas no seu interior, fontes de vitamina C, vitamina K, potássio, folato e fibras.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -115,7 +115,7 @@
         "id": "17",
         "nome": "Beringela",
         "imgSrc": "beringela.jpeg",
-        "descricao": "Fonte de vitamina C, flavonoides e nasunin que atuam prevenindo o desenvolvimento de doenças cardiovasculares e diminuindo os níveis de colesterol LDL e triglicerídeos. Além disso é fonte de ácido fólico e fibras.",
+        "descricao": "Fonte de vitamina C, ácido fólico e fibras. Alguns estudos mostram sua eficácia na redução do colesterol.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -123,7 +123,7 @@
         "id": "18",
         "nome": "Pera",
         "imgSrc": "pera.jpeg",
-        "descricao": "Fonte de potássio, fósforo, magnésio, antioxidantes e vitaminas A, B e C. É rica em fibras e possui um baixo índice glicêmico, ajudando no controle do diabetes.",
+        "descricao": "É uma fruta rica em vitamina A e C, de baixo valor energético e elevado teor de água.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -131,7 +131,7 @@
         "id": "19",
         "nome": "Maçã",
         "imgSrc": "maca.jpeg",
-        "descricao": "Fonte de vitamina C, vitamina A e vitamina E, tendo ação antioxidantes combatendo os radicais livre. Contribui no controle do diabetes, a diminuição do colesterol e melhorando a digestão.",
+        "descricao": "É uma das frutas mais cultivadas e consumidas no mundo, fonte de vitamina C, A e E, além de ser rica em antioxidantes.",
         "tag": "Frutas",
         "flipped": false
     },
@@ -139,7 +139,7 @@
         "id": "20",
         "nome": "Cenoura",
         "imgSrc": "cenoura.jpeg",
-        "descricao": "Fonte de vitamina A carotenoides, potássio, fibras e antioxidantes, proporciona saúde visual, melhora o sistema imunológico, previne o envelhecimento e alguns câncer.",
+        "descricao": "Podem ser consumidas cruas, inteiras, ou como parte de saladas, cozidas em sopas e refogados. Fonte de fibras, carotenoides e antioxidantes.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -147,7 +147,7 @@
         "id": "21",
         "nome": "Brócolis",
         "imgSrc": "brocolis.jpeg",
-        "descricao": "Fonte de vitamina K, vitamina C, glucosinolatos e selênio. Possui sulforafanos, que são compostos que poderiam ajudar a prevenir alterações celulares cancerígenas, além de estarem associados a um menor risco de infarto do miocárdio. Além disso é capaz de manter a pressão arterial controlada.",
+        "descricao": "É um vegetal crucífero onde as folhas, as flores e os pedúnculos florais são comestíveis. Fonte de vitamina K, vitamina C, glucosinolatos e selênio.",
         "tag": "Legumes",
         "flipped": false
     },
@@ -155,7 +155,7 @@
         "id": "23",
         "nome": "Laranja",
         "imgSrc": "laranja.jpeg",
-        "descricao": "Fontes de fibras, vitamina A, vitamina B e vitamina C, flavonoides e betacaroteno, sendo antioxidantes e anti-inflamatórias, auxiliando no combate ao envelhecimento precoce, reduzindo o colesterol ruim, protegendo de doenças cardiovasculares, e fortalecem o sistema imunológico. Contem também potássio e cálcio, responsáveis pela regulação da pressão arterial.",
+        "descricao": "A vitamina C é seu nutriente mais importante, duas frutas dessa ao dia fornecem a quantidade de vitamina C de que o organismo precisa.",
         "tag": "Frutas",
         "flipped": false
     }
